@@ -6,6 +6,9 @@
 <meta name="theme-color" content="#0a3227">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <title>Mít Filipa</title>
 <style>
   :root{
@@ -307,10 +310,31 @@ function roundsWord(n){ return n===1 ? 'kolo' : (n>=2 && n<=4 ? 'kola' : 'kol');
 /* ================= question loading ================= */
 async function loadQuestions(){
   try{
-    const r = await fetch('kvizove_otazky.json', {cache:'no-store'});
+    const r = await fetch('kvizove_otazky.json');   // cache-first via the service worker → instant offline boot
     if(r.ok) return await r.json();
   }catch(e){}
   return null;
+}
+
+// Background refresh on the setup screen: `?fresh` makes the service worker
+// hit the network and overwrite its cached copy, so updates propagate while
+// the app stays fully usable offline. Silently a no-op without network.
+let refreshingQuestions = false;
+async function refreshQuestions(){
+  if(refreshingQuestions) return;
+  refreshingQuestions = true;
+  try{
+    const r = await fetch('kvizove_otazky.json?fresh=1', {cache:'no-store'});
+    if(r.ok){
+      const fresh = await r.json();
+      // an in-progress game's deck references the loaded pool — don't swap under it
+      const inProgress = game && game.phase !== 'over';
+      if(fresh && typeof fresh === 'object' && Object.keys(fresh).length && !inProgress){
+        QUESTIONS = fresh;
+      }
+    }
+  }catch(e){}
+  refreshingQuestions = false;
 }
 
 /* ================= game state ================= */
@@ -409,6 +433,7 @@ function updateLadder(cc, dead){
 }
 
 function renderSetup(){
+  refreshQuestions();
   const roster = loadLS(LS.roster, []).slice();
   const rounds0 = loadLS(LS.rounds, 3);
   const resumable = game && game.phase !== 'over';
@@ -710,6 +735,10 @@ async function boot(){
   renderSetup();
 }
 boot();
+
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('sw.js').catch(e => {});
+}
 </script>
 </body>
 </html>
