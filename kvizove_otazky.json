@@ -1,0 +1,5502 @@
+{
+  "1": {
+    "otazka": "Které z těchto zemí jsou vnitrozemské (nemají přístup k moři)?",
+    "moznosti": [
+      {
+        "text": "Švýcarsko",
+        "spravne": true,
+        "vysvetleni": "Vnitrozemský stát"
+      },
+      {
+        "text": "Portugalsko",
+        "spravne": false,
+        "vysvetleni": "Atlantské pobřeží"
+      },
+      {
+        "text": "Rakousko",
+        "spravne": true,
+        "vysvetleni": "Vnitrozemský stát"
+      },
+      {
+        "text": "Chorvatsko",
+        "spravne": false,
+        "vysvetleni": "Jaderské pobřeží"
+      },
+      {
+        "text": "Maďarsko",
+        "spravne": true,
+        "vysvetleni": "Vnitrozemský stát"
+      },
+      {
+        "text": "Vietnam",
+        "spravne": false,
+        "vysvetleni": "Pobřeží Jihočínského moře"
+      },
+      {
+        "text": "Bolívie",
+        "spravne": true,
+        "vysvetleni": "Vnitrozemský stát"
+      },
+      {
+        "text": "Ekvádor",
+        "spravne": false,
+        "vysvetleni": "Tichomořské pobřeží"
+      },
+      {
+        "text": "Nepál",
+        "spravne": true,
+        "vysvetleni": "Vnitrozemský stát"
+      },
+      {
+        "text": "Polsko",
+        "spravne": false,
+        "vysvetleni": "Baltské pobřeží"
+      }
+    ]
+  },
+  "2": {
+    "otazka": "Která z těchto měst jsou hlavními městy svých zemí?",
+    "moznosti": [
+      {
+        "text": "Ottawa (Kanada)",
+        "spravne": true,
+        "vysvetleni": "Hlavní město Kanady"
+      },
+      {
+        "text": "Sydney",
+        "spravne": false,
+        "vysvetleni": "Hlavní je Canberra"
+      },
+      {
+        "text": "Canberra (Austrálie)",
+        "spravne": true,
+        "vysvetleni": "Hlavní město Austrálie"
+      },
+      {
+        "text": "Istanbul",
+        "spravne": false,
+        "vysvetleni": "Hlavní je Ankara"
+      },
+      {
+        "text": "Ankara (Turecko)",
+        "spravne": true,
+        "vysvetleni": "Hlavní město Turecka"
+      },
+      {
+        "text": "Rio de Janeiro",
+        "spravne": false,
+        "vysvetleni": "Hlavní je Brasília"
+      },
+      {
+        "text": "Bern (Švýcarsko)",
+        "spravne": true,
+        "vysvetleni": "Hlavní město Švýcarska"
+      },
+      {
+        "text": "Casablanca",
+        "spravne": false,
+        "vysvetleni": "Hlavní je Rabat"
+      },
+      {
+        "text": "Brasília (Brazílie)",
+        "spravne": true,
+        "vysvetleni": "Hlavní město Brazílie"
+      },
+      {
+        "text": "New York",
+        "spravne": false,
+        "vysvetleni": "Hlavní je Washington"
+      }
+    ]
+  },
+  "3": {
+    "otazka": "Které z těchto zemí používají jako oficiální měnu euro?",
+    "moznosti": [
+      {
+        "text": "Německo",
+        "spravne": true,
+        "vysvetleni": "Platí eurem"
+      },
+      {
+        "text": "Polsko",
+        "spravne": false,
+        "vysvetleni": "Platí zlotým"
+      },
+      {
+        "text": "Slovensko",
+        "spravne": true,
+        "vysvetleni": "Euro od 2009"
+      },
+      {
+        "text": "Švédsko",
+        "spravne": false,
+        "vysvetleni": "Platí korunou"
+      },
+      {
+        "text": "Irsko",
+        "spravne": true,
+        "vysvetleni": "Platí eurem"
+      },
+      {
+        "text": "Maďarsko",
+        "spravne": false,
+        "vysvetleni": "Platí forintem"
+      },
+      {
+        "text": "Portugalsko",
+        "spravne": true,
+        "vysvetleni": "Platí eurem"
+      },
+      {
+        "text": "Česko",
+        "spravne": false,
+        "vysvetleni": "Platí korunou"
+      },
+      {
+        "text": "Řecko",
+        "spravne": true,
+        "vysvetleni": "Euro od 2001"
+      },
+      {
+        "text": "Dánsko",
+        "spravne": false,
+        "vysvetleni": "Platí korunou"
+      }
+    ]
+  },
+  "4": {
+    "otazka": "Které z těchto staveb patří mezi sedm divů starověkého světa?",
+    "moznosti": [
+      {
+        "text": "Velká pyramida v Gíze",
+        "spravne": true,
+        "vysvetleni": "Div starověku"
+      },
+      {
+        "text": "Koloseum v Římě",
+        "spravne": false,
+        "vysvetleni": "Antické, ne div"
+      },
+      {
+        "text": "Visuté zahrady Semiramidiny",
+        "spravne": true,
+        "vysvetleni": "Div starověku"
+      },
+      {
+        "text": "Velká čínská zeď",
+        "spravne": false,
+        "vysvetleni": "Není na seznamu"
+      },
+      {
+        "text": "Rhodský kolos",
+        "spravne": true,
+        "vysvetleni": "Div starověku"
+      },
+      {
+        "text": "Petra",
+        "spravne": false,
+        "vysvetleni": "Novodobý div"
+      },
+      {
+        "text": "Maják na ostrově Faru",
+        "spravne": true,
+        "vysvetleni": "Alexandrijský maják"
+      },
+      {
+        "text": "Machu Picchu",
+        "spravne": false,
+        "vysvetleni": "Novodobý div"
+      },
+      {
+        "text": "Mauzoleum v Halikarnassu",
+        "spravne": true,
+        "vysvetleni": "Div starověku"
+      },
+      {
+        "text": "Eiffelova věž",
+        "spravne": false,
+        "vysvetleni": "Moderní stavba"
+      }
+    ]
+  },
+  "5": {
+    "otazka": "Které z těchto osobností byly římskými císaři?",
+    "moznosti": [
+      {
+        "text": "Augustus",
+        "spravne": true,
+        "vysvetleni": "První císař"
+      },
+      {
+        "text": "Julius Caesar",
+        "spravne": false,
+        "vysvetleni": "Diktátor, ne císař"
+      },
+      {
+        "text": "Nero",
+        "spravne": true,
+        "vysvetleni": "Římský císař"
+      },
+      {
+        "text": "Cicero",
+        "spravne": false,
+        "vysvetleni": "Řečník a politik"
+      },
+      {
+        "text": "Hadrián",
+        "spravne": true,
+        "vysvetleni": "Římský císař"
+      },
+      {
+        "text": "Spartakus",
+        "spravne": false,
+        "vysvetleni": "Vůdce povstání"
+      },
+      {
+        "text": "Traján",
+        "spravne": true,
+        "vysvetleni": "Římský císař"
+      },
+      {
+        "text": "Hannibal",
+        "spravne": false,
+        "vysvetleni": "Kartáginský vojevůdce"
+      },
+      {
+        "text": "Marcus Aurelius",
+        "spravne": true,
+        "vysvetleni": "Císař a filozof"
+      },
+      {
+        "text": "Periklés",
+        "spravne": false,
+        "vysvetleni": "Athénský státník"
+      }
+    ]
+  },
+  "6": {
+    "otazka": "Které z těchto zemí byly zakládajícími členy NATO (1949)?",
+    "moznosti": [
+      {
+        "text": "USA",
+        "spravne": true,
+        "vysvetleni": "Zakladatel 1949"
+      },
+      {
+        "text": "Německo",
+        "spravne": false,
+        "vysvetleni": "Vstoupilo 1955"
+      },
+      {
+        "text": "Francie",
+        "spravne": true,
+        "vysvetleni": "Zakladatel 1949"
+      },
+      {
+        "text": "Španělsko",
+        "spravne": false,
+        "vysvetleni": "Vstoupilo 1982"
+      },
+      {
+        "text": "Itálie",
+        "spravne": true,
+        "vysvetleni": "Zakladatel 1949"
+      },
+      {
+        "text": "Řecko",
+        "spravne": false,
+        "vysvetleni": "Vstoupilo 1952"
+      },
+      {
+        "text": "Norsko",
+        "spravne": true,
+        "vysvetleni": "Zakladatel 1949"
+      },
+      {
+        "text": "Turecko",
+        "spravne": false,
+        "vysvetleni": "Vstoupilo 1952"
+      },
+      {
+        "text": "Portugalsko",
+        "spravne": true,
+        "vysvetleni": "Zakladatel 1949"
+      },
+      {
+        "text": "Polsko",
+        "spravne": false,
+        "vysvetleni": "Vstoupilo 1999"
+      }
+    ]
+  },
+  "7": {
+    "otazka": "Které z těchto jazyků patří mezi slovanské jazyky?",
+    "moznosti": [
+      {
+        "text": "Polština",
+        "spravne": true,
+        "vysvetleni": "Západoslovanský jazyk"
+      },
+      {
+        "text": "Litevština",
+        "spravne": false,
+        "vysvetleni": "Baltský jazyk"
+      },
+      {
+        "text": "Bulharština",
+        "spravne": true,
+        "vysvetleni": "Jihoslovanský jazyk"
+      },
+      {
+        "text": "Maďarština",
+        "spravne": false,
+        "vysvetleni": "Ugrofinský jazyk"
+      },
+      {
+        "text": "Chorvatština",
+        "spravne": true,
+        "vysvetleni": "Jihoslovanský jazyk"
+      },
+      {
+        "text": "Rumunština",
+        "spravne": false,
+        "vysvetleni": "Románský jazyk"
+      },
+      {
+        "text": "Slovinština",
+        "spravne": true,
+        "vysvetleni": "Jihoslovanský jazyk"
+      },
+      {
+        "text": "Estonština",
+        "spravne": false,
+        "vysvetleni": "Ugrofinský jazyk"
+      },
+      {
+        "text": "Ukrajinština",
+        "spravne": true,
+        "vysvetleni": "Východoslovanský jazyk"
+      },
+      {
+        "text": "Albánština",
+        "spravne": false,
+        "vysvetleni": "Samostatná větev"
+      }
+    ]
+  },
+  "8": {
+    "otazka": "Které z těchto zemí leží celé na jižní polokouli?",
+    "moznosti": [
+      {
+        "text": "Austrálie",
+        "spravne": true,
+        "vysvetleni": "Celá jižní polokoule"
+      },
+      {
+        "text": "Ekvádor",
+        "spravne": false,
+        "vysvetleni": "Leží na rovníku"
+      },
+      {
+        "text": "Nový Zéland",
+        "spravne": true,
+        "vysvetleni": "Celá jižní polokoule"
+      },
+      {
+        "text": "Kolumbie",
+        "spravne": false,
+        "vysvetleni": "Protíná rovník"
+      },
+      {
+        "text": "Argentina",
+        "spravne": true,
+        "vysvetleni": "Celá jižní polokoule"
+      },
+      {
+        "text": "Keňa",
+        "spravne": false,
+        "vysvetleni": "Protíná rovník"
+      },
+      {
+        "text": "Jihoafrická republika",
+        "spravne": true,
+        "vysvetleni": "Celá jižní polokoule"
+      },
+      {
+        "text": "Brazílie",
+        "spravne": false,
+        "vysvetleni": "Protíná rovník"
+      },
+      {
+        "text": "Chile",
+        "spravne": true,
+        "vysvetleni": "Celá jižní polokoule"
+      },
+      {
+        "text": "Indonésie",
+        "spravne": false,
+        "vysvetleni": "Protíná rovník"
+      }
+    ]
+  },
+  "9": {
+    "otazka": "Které z těchto vynálezů a objevů pocházejí z 20. století?",
+    "moznosti": [
+      {
+        "text": "Penicilin",
+        "spravne": true,
+        "vysvetleni": "Objeven 1928"
+      },
+      {
+        "text": "Telefon",
+        "spravne": false,
+        "vysvetleni": "Vynález 1876"
+      },
+      {
+        "text": "Tranzistor",
+        "spravne": true,
+        "vysvetleni": "Vynález 1947"
+      },
+      {
+        "text": "Žárovka",
+        "spravne": false,
+        "vysvetleni": "Vynález 1879"
+      },
+      {
+        "text": "Jaderná bomba",
+        "spravne": true,
+        "vysvetleni": "Rok 1945"
+      },
+      {
+        "text": "Parní stroj",
+        "spravne": false,
+        "vysvetleni": "18. století"
+      },
+      {
+        "text": "Internet",
+        "spravne": true,
+        "vysvetleni": "ARPANET 1969"
+      },
+      {
+        "text": "Dynamit",
+        "spravne": false,
+        "vysvetleni": "Rok 1867"
+      },
+      {
+        "text": "Barevná televize",
+        "spravne": true,
+        "vysvetleni": "Rozšíření 20. století"
+      },
+      {
+        "text": "Fotografie",
+        "spravne": false,
+        "vysvetleni": "19. století"
+      }
+    ]
+  },
+  "10": {
+    "otazka": "Které z těchto řek patří k nejdelším na světě (přes 4 000 km)?",
+    "moznosti": [
+      {
+        "text": "Nil",
+        "spravne": true,
+        "vysvetleni": "Přes 6000 km"
+      },
+      {
+        "text": "Dunaj",
+        "spravne": false,
+        "vysvetleni": "Jen ~2850 km"
+      },
+      {
+        "text": "Amazonka",
+        "spravne": true,
+        "vysvetleni": "Přes 6000 km"
+      },
+      {
+        "text": "Rýn",
+        "spravne": false,
+        "vysvetleni": "Jen ~1230 km"
+      },
+      {
+        "text": "Jang-c’-ťiang",
+        "spravne": true,
+        "vysvetleni": "Přes 6000 km"
+      },
+      {
+        "text": "Volha",
+        "spravne": false,
+        "vysvetleni": "Asi 3530 km"
+      },
+      {
+        "text": "Mississippi",
+        "spravne": true,
+        "vysvetleni": "Přes 6000 km"
+      },
+      {
+        "text": "Loira",
+        "spravne": false,
+        "vysvetleni": "Jen ~1000 km"
+      },
+      {
+        "text": "Jenisej",
+        "spravne": true,
+        "vysvetleni": "Přes 5000 km"
+      },
+      {
+        "text": "Temže",
+        "spravne": false,
+        "vysvetleni": "Jen ~350 km"
+      }
+    ]
+  },
+  "11": {
+    "otazka": "Které z těchto zemí byly součástí bývalé Jugoslávie?",
+    "moznosti": [
+      {
+        "text": "Slovinsko",
+        "spravne": true,
+        "vysvetleni": "Bývalá jugoslávská republika"
+      },
+      {
+        "text": "Albánie",
+        "spravne": false,
+        "vysvetleni": "Nikdy v Jugoslávii"
+      },
+      {
+        "text": "Chorvatsko",
+        "spravne": true,
+        "vysvetleni": "Bývalá jugoslávská republika"
+      },
+      {
+        "text": "Rumunsko",
+        "spravne": false,
+        "vysvetleni": "Nikdy v Jugoslávii"
+      },
+      {
+        "text": "Srbsko",
+        "spravne": true,
+        "vysvetleni": "Bývalá jugoslávská republika"
+      },
+      {
+        "text": "Bulharsko",
+        "spravne": false,
+        "vysvetleni": "Nikdy v Jugoslávii"
+      },
+      {
+        "text": "Severní Makedonie",
+        "spravne": true,
+        "vysvetleni": "Bývalá jugoslávská republika"
+      },
+      {
+        "text": "Rakousko",
+        "spravne": false,
+        "vysvetleni": "Nikdy v Jugoslávii"
+      },
+      {
+        "text": "Černá Hora",
+        "spravne": true,
+        "vysvetleni": "Bývalá jugoslávská republika"
+      },
+      {
+        "text": "Maďarsko",
+        "spravne": false,
+        "vysvetleni": "Nikdy v Jugoslávii"
+      }
+    ]
+  },
+  "12": {
+    "otazka": "Které z těchto románů napsal Fjodor Dostojevskij?",
+    "moznosti": [
+      {
+        "text": "Zločin a trest",
+        "spravne": true,
+        "vysvetleni": "Dílo Dostojevského"
+      },
+      {
+        "text": "Vojna a mír",
+        "spravne": false,
+        "vysvetleni": "Napsal Tolstoj"
+      },
+      {
+        "text": "Idiot",
+        "spravne": true,
+        "vysvetleni": "Dílo Dostojevského"
+      },
+      {
+        "text": "Anna Kareninová",
+        "spravne": false,
+        "vysvetleni": "Napsal Tolstoj"
+      },
+      {
+        "text": "Bratři Karamazovi",
+        "spravne": true,
+        "vysvetleni": "Dílo Dostojevského"
+      },
+      {
+        "text": "Mrtvé duše",
+        "spravne": false,
+        "vysvetleni": "Napsal Gogol"
+      },
+      {
+        "text": "Běsi",
+        "spravne": true,
+        "vysvetleni": "Dílo Dostojevského"
+      },
+      {
+        "text": "Otcové a děti",
+        "spravne": false,
+        "vysvetleni": "Napsal Turgeněv"
+      },
+      {
+        "text": "Hráč",
+        "spravne": true,
+        "vysvetleni": "Dílo Dostojevského"
+      },
+      {
+        "text": "Doktor Živago",
+        "spravne": false,
+        "vysvetleni": "Napsal Pasternak"
+      }
+    ]
+  },
+  "13": {
+    "otazka": "Které z těchto sportů jsou součástí letních olympijských her?",
+    "moznosti": [
+      {
+        "text": "Vzpírání",
+        "spravne": true,
+        "vysvetleni": "Olympijský sport"
+      },
+      {
+        "text": "Šachy",
+        "spravne": false,
+        "vysvetleni": "Není olympijský"
+      },
+      {
+        "text": "Šerm",
+        "spravne": true,
+        "vysvetleni": "Olympijský sport"
+      },
+      {
+        "text": "Pólo",
+        "spravne": false,
+        "vysvetleni": "Vyřazeno 1936"
+      },
+      {
+        "text": "Judo",
+        "spravne": true,
+        "vysvetleni": "Olympijský sport"
+      },
+      {
+        "text": "Bridž",
+        "spravne": false,
+        "vysvetleni": "Není olympijský"
+      },
+      {
+        "text": "Veslování",
+        "spravne": true,
+        "vysvetleni": "Olympijský sport"
+      },
+      {
+        "text": "Kulečník",
+        "spravne": false,
+        "vysvetleni": "Není olympijský"
+      },
+      {
+        "text": "Lukostřelba",
+        "spravne": true,
+        "vysvetleni": "Olympijský sport"
+      },
+      {
+        "text": "Netball",
+        "spravne": false,
+        "vysvetleni": "Není olympijský"
+      }
+    ]
+  },
+  "14": {
+    "otazka": "Které z těchto filmů režíroval Christopher Nolan?",
+    "moznosti": [
+      {
+        "text": "Počátek (Inception)",
+        "spravne": true,
+        "vysvetleni": "Režie Nolan"
+      },
+      {
+        "text": "Gravitace",
+        "spravne": false,
+        "vysvetleni": "Režie Cuarón"
+      },
+      {
+        "text": "Interstellar",
+        "spravne": true,
+        "vysvetleni": "Režie Nolan"
+      },
+      {
+        "text": "Blade Runner 2049",
+        "spravne": false,
+        "vysvetleni": "Režie Villeneuve"
+      },
+      {
+        "text": "Temný rytíř",
+        "spravne": true,
+        "vysvetleni": "Režie Nolan"
+      },
+      {
+        "text": "Sedm",
+        "spravne": false,
+        "vysvetleni": "Režie Fincher"
+      },
+      {
+        "text": "Dunkerk",
+        "spravne": true,
+        "vysvetleni": "Režie Nolan"
+      },
+      {
+        "text": "Avatar",
+        "spravne": false,
+        "vysvetleni": "Režie Cameron"
+      },
+      {
+        "text": "Oppenheimer",
+        "spravne": true,
+        "vysvetleni": "Režie Nolan"
+      },
+      {
+        "text": "Gladiátor",
+        "spravne": false,
+        "vysvetleni": "Režie Scott"
+      }
+    ]
+  },
+  "15": {
+    "otazka": "Které z těchto filmů získaly Oscara za nejlepší film?",
+    "moznosti": [
+      {
+        "text": "Titanic",
+        "spravne": true,
+        "vysvetleni": "Nejlepší film 1997"
+      },
+      {
+        "text": "Pulp Fiction",
+        "spravne": false,
+        "vysvetleni": "Cenu nezískal"
+      },
+      {
+        "text": "Forrest Gump",
+        "spravne": true,
+        "vysvetleni": "Nejlepší film 1994"
+      },
+      {
+        "text": "Avatar",
+        "spravne": false,
+        "vysvetleni": "Cenu nezískal"
+      },
+      {
+        "text": "Gladiátor",
+        "spravne": true,
+        "vysvetleni": "Nejlepší film 2000"
+      },
+      {
+        "text": "Zachraňte vojína Ryana",
+        "spravne": false,
+        "vysvetleni": "Cenu nezískal"
+      },
+      {
+        "text": "Parazit",
+        "spravne": true,
+        "vysvetleni": "Nejlepší film 2019"
+      },
+      {
+        "text": "La La Land",
+        "spravne": false,
+        "vysvetleni": "Prohrál s Moonlightem"
+      },
+      {
+        "text": "Chicago",
+        "spravne": true,
+        "vysvetleni": "Nejlepší film 2002"
+      },
+      {
+        "text": "Sedm",
+        "spravne": false,
+        "vysvetleni": "Nebyl nominován"
+      }
+    ]
+  },
+  "16": {
+    "otazka": "Které z těchto kapel a interpretů pocházejí z Velké Británie?",
+    "moznosti": [
+      {
+        "text": "The Beatles",
+        "spravne": true,
+        "vysvetleni": "Z Anglie"
+      },
+      {
+        "text": "ABBA",
+        "spravne": false,
+        "vysvetleni": "Ze Švédska"
+      },
+      {
+        "text": "Queen",
+        "spravne": true,
+        "vysvetleni": "Z Anglie"
+      },
+      {
+        "text": "U2",
+        "spravne": false,
+        "vysvetleni": "Z Irska"
+      },
+      {
+        "text": "The Rolling Stones",
+        "spravne": true,
+        "vysvetleni": "Z Anglie"
+      },
+      {
+        "text": "Nirvana",
+        "spravne": false,
+        "vysvetleni": "Z USA"
+      },
+      {
+        "text": "Coldplay",
+        "spravne": true,
+        "vysvetleni": "Z Anglie"
+      },
+      {
+        "text": "Rammstein",
+        "spravne": false,
+        "vysvetleni": "Z Německa"
+      },
+      {
+        "text": "Adele",
+        "spravne": true,
+        "vysvetleni": "Z Anglie"
+      },
+      {
+        "text": "Daft Punk",
+        "spravne": false,
+        "vysvetleni": "Z Francie"
+      }
+    ]
+  },
+  "17": {
+    "otazka": "Které z těchto postav se objevují v seriálu Přátelé (Friends)?",
+    "moznosti": [
+      {
+        "text": "Ross",
+        "spravne": true,
+        "vysvetleni": "Postava z Přátel"
+      },
+      {
+        "text": "Sheldon",
+        "spravne": false,
+        "vysvetleni": "Teorie velkého třesku"
+      },
+      {
+        "text": "Rachel",
+        "spravne": true,
+        "vysvetleni": "Postava z Přátel"
+      },
+      {
+        "text": "Barney",
+        "spravne": false,
+        "vysvetleni": "Jak jsem poznal"
+      },
+      {
+        "text": "Monica",
+        "spravne": true,
+        "vysvetleni": "Postava z Přátel"
+      },
+      {
+        "text": "Ted",
+        "spravne": false,
+        "vysvetleni": "Jak jsem poznal"
+      },
+      {
+        "text": "Chandler",
+        "spravne": true,
+        "vysvetleni": "Postava z Přátel"
+      },
+      {
+        "text": "Marshall",
+        "spravne": false,
+        "vysvetleni": "Jak jsem poznal"
+      },
+      {
+        "text": "Phoebe",
+        "spravne": true,
+        "vysvetleni": "Postava z Přátel"
+      },
+      {
+        "text": "Robin",
+        "spravne": false,
+        "vysvetleni": "Jak jsem poznal"
+      }
+    ]
+  },
+  "18": {
+    "otazka": "Které z těchto filmů patří do série o Jamesi Bondovi?",
+    "moznosti": [
+      {
+        "text": "Skyfall",
+        "spravne": true,
+        "vysvetleni": "Film o Bondovi"
+      },
+      {
+        "text": "Mission: Impossible",
+        "spravne": false,
+        "vysvetleni": "Série s Huntem"
+      },
+      {
+        "text": "Casino Royale",
+        "spravne": true,
+        "vysvetleni": "Film o Bondovi"
+      },
+      {
+        "text": "Bourneovo ultimátum",
+        "spravne": false,
+        "vysvetleni": "Série o Bournovi"
+      },
+      {
+        "text": "Zlaté oko (GoldenEye)",
+        "spravne": true,
+        "vysvetleni": "Film o Bondovi"
+      },
+      {
+        "text": "Kingsman",
+        "spravne": false,
+        "vysvetleni": "Jiná špionážní série"
+      },
+      {
+        "text": "Dr. No",
+        "spravne": true,
+        "vysvetleni": "První bondovka"
+      },
+      {
+        "text": "Jack Ryan",
+        "spravne": false,
+        "vysvetleni": "Postava Toma Clancyho"
+      },
+      {
+        "text": "Spectre",
+        "spravne": true,
+        "vysvetleni": "Film o Bondovi"
+      },
+      {
+        "text": "xXx",
+        "spravne": false,
+        "vysvetleni": "Série s Xanderem"
+      }
+    ]
+  },
+  "19": {
+    "otazka": "Které z těchto postav jsou superhrdinové z komiksů Marvel?",
+    "moznosti": [
+      {
+        "text": "Spider-Man",
+        "spravne": true,
+        "vysvetleni": "Hrdina Marvelu"
+      },
+      {
+        "text": "Batman",
+        "spravne": false,
+        "vysvetleni": "Hrdina DC"
+      },
+      {
+        "text": "Iron Man",
+        "spravne": true,
+        "vysvetleni": "Hrdina Marvelu"
+      },
+      {
+        "text": "Superman",
+        "spravne": false,
+        "vysvetleni": "Hrdina DC"
+      },
+      {
+        "text": "Thor",
+        "spravne": true,
+        "vysvetleni": "Hrdina Marvelu"
+      },
+      {
+        "text": "Wonder Woman",
+        "spravne": false,
+        "vysvetleni": "Hrdinka DC"
+      },
+      {
+        "text": "Hulk",
+        "spravne": true,
+        "vysvetleni": "Hrdina Marvelu"
+      },
+      {
+        "text": "Flash",
+        "spravne": false,
+        "vysvetleni": "Hrdina DC"
+      },
+      {
+        "text": "Captain America",
+        "spravne": true,
+        "vysvetleni": "Hrdina Marvelu"
+      },
+      {
+        "text": "Aquaman",
+        "spravne": false,
+        "vysvetleni": "Hrdina DC"
+      }
+    ]
+  },
+  "20": {
+    "otazka": "Které z těchto skupin patří k žánru heavy metal?",
+    "moznosti": [
+      {
+        "text": "Metallica",
+        "spravne": true,
+        "vysvetleni": "Metalová kapela"
+      },
+      {
+        "text": "Nirvana",
+        "spravne": false,
+        "vysvetleni": "Grunge"
+      },
+      {
+        "text": "Iron Maiden",
+        "spravne": true,
+        "vysvetleni": "Metalová kapela"
+      },
+      {
+        "text": "Oasis",
+        "spravne": false,
+        "vysvetleni": "Britpop"
+      },
+      {
+        "text": "Black Sabbath",
+        "spravne": true,
+        "vysvetleni": "Průkopníci metalu"
+      },
+      {
+        "text": "Depeche Mode",
+        "spravne": false,
+        "vysvetleni": "Synthpop"
+      },
+      {
+        "text": "Judas Priest",
+        "spravne": true,
+        "vysvetleni": "Metalová kapela"
+      },
+      {
+        "text": "R.E.M.",
+        "spravne": false,
+        "vysvetleni": "Alternativní rock"
+      },
+      {
+        "text": "Slayer",
+        "spravne": true,
+        "vysvetleni": "Thrash metal"
+      },
+      {
+        "text": "Blur",
+        "spravne": false,
+        "vysvetleni": "Britpop"
+      }
+    ]
+  },
+  "21": {
+    "otazka": "Které z těchto animovaných filmů vytvořilo studio Pixar?",
+    "moznosti": [
+      {
+        "text": "Toy Story: Příběh hraček",
+        "spravne": true,
+        "vysvetleni": "Studio Pixar"
+      },
+      {
+        "text": "Shrek",
+        "spravne": false,
+        "vysvetleni": "Studio DreamWorks"
+      },
+      {
+        "text": "Hledá se Nemo",
+        "spravne": true,
+        "vysvetleni": "Studio Pixar"
+      },
+      {
+        "text": "Madagaskar",
+        "spravne": false,
+        "vysvetleni": "Studio DreamWorks"
+      },
+      {
+        "text": "Auta",
+        "spravne": true,
+        "vysvetleni": "Studio Pixar"
+      },
+      {
+        "text": "Doba ledová",
+        "spravne": false,
+        "vysvetleni": "Studio Blue Sky"
+      },
+      {
+        "text": "Ratatouille",
+        "spravne": true,
+        "vysvetleni": "Studio Pixar"
+      },
+      {
+        "text": "Já, padouch",
+        "spravne": false,
+        "vysvetleni": "Studio Illumination"
+      },
+      {
+        "text": "Vzhůru do oblak (Up)",
+        "spravne": true,
+        "vysvetleni": "Studio Pixar"
+      },
+      {
+        "text": "Jak vycvičit draka",
+        "spravne": false,
+        "vysvetleni": "Studio DreamWorks"
+      }
+    ]
+  },
+  "22": {
+    "otazka": "Kteří z těchto herců získali Oscara za nejlepší mužský výkon v hlavní roli?",
+    "moznosti": [
+      {
+        "text": "Anthony Hopkins",
+        "spravne": true,
+        "vysvetleni": "Oscar za hlavní"
+      },
+      {
+        "text": "Brad Pitt",
+        "spravne": false,
+        "vysvetleni": "Oscar za vedlejší"
+      },
+      {
+        "text": "Leonardo DiCaprio",
+        "spravne": true,
+        "vysvetleni": "Oscar za Revenanta"
+      },
+      {
+        "text": "Johnny Depp",
+        "spravne": false,
+        "vysvetleni": "Oscara nezískal"
+      },
+      {
+        "text": "Tom Hanks",
+        "spravne": true,
+        "vysvetleni": "Dvakrát za hlavní"
+      },
+      {
+        "text": "Tom Cruise",
+        "spravne": false,
+        "vysvetleni": "Oscara nezískal"
+      },
+      {
+        "text": "Denzel Washington",
+        "spravne": true,
+        "vysvetleni": "Oscar za hlavní"
+      },
+      {
+        "text": "Hugh Jackman",
+        "spravne": false,
+        "vysvetleni": "Oscara nezískal"
+      },
+      {
+        "text": "Joaquin Phoenix",
+        "spravne": true,
+        "vysvetleni": "Oscar za Jokera"
+      },
+      {
+        "text": "Samuel L. Jackson",
+        "spravne": false,
+        "vysvetleni": "Soutěžního nezískal"
+      }
+    ]
+  },
+  "23": {
+    "otazka": "Které z těchto postav pocházejí ze světa Harryho Pottera?",
+    "moznosti": [
+      {
+        "text": "Hermiona Grangerová",
+        "spravne": true,
+        "vysvetleni": "Postava Harryho Pottera"
+      },
+      {
+        "text": "Gandalf",
+        "spravne": false,
+        "vysvetleni": "Pán prstenů"
+      },
+      {
+        "text": "Severus Snape",
+        "spravne": true,
+        "vysvetleni": "Postava Harryho Pottera"
+      },
+      {
+        "text": "Frodo Pytlík",
+        "spravne": false,
+        "vysvetleni": "Pán prstenů"
+      },
+      {
+        "text": "Rubeus Hagrid",
+        "spravne": true,
+        "vysvetleni": "Postava Harryho Pottera"
+      },
+      {
+        "text": "Aslan",
+        "spravne": false,
+        "vysvetleni": "Letopisy Narnie"
+      },
+      {
+        "text": "Draco Malfoy",
+        "spravne": true,
+        "vysvetleni": "Postava Harryho Pottera"
+      },
+      {
+        "text": "Katniss Everdeenová",
+        "spravne": false,
+        "vysvetleni": "Hunger Games"
+      },
+      {
+        "text": "Albus Brumbál",
+        "spravne": true,
+        "vysvetleni": "Postava Harryho Pottera"
+      },
+      {
+        "text": "Percy Jackson",
+        "spravne": false,
+        "vysvetleni": "Vlastní knižní série"
+      }
+    ]
+  },
+  "24": {
+    "otazka": "Které z těchto hudebních a tanečních stylů vznikly v USA?",
+    "moznosti": [
+      {
+        "text": "Jazz",
+        "spravne": true,
+        "vysvetleni": "Vznikl v USA"
+      },
+      {
+        "text": "Reggae",
+        "spravne": false,
+        "vysvetleni": "Z Jamajky"
+      },
+      {
+        "text": "Blues",
+        "spravne": true,
+        "vysvetleni": "Vznikl v USA"
+      },
+      {
+        "text": "Flamenco",
+        "spravne": false,
+        "vysvetleni": "Ze Španělska"
+      },
+      {
+        "text": "Hip hop",
+        "spravne": true,
+        "vysvetleni": "Vznikl v USA"
+      },
+      {
+        "text": "Tango",
+        "spravne": false,
+        "vysvetleni": "Z Argentiny"
+      },
+      {
+        "text": "Country",
+        "spravne": true,
+        "vysvetleni": "Vznikl v USA"
+      },
+      {
+        "text": "Bossa nova",
+        "spravne": false,
+        "vysvetleni": "Z Brazílie"
+      },
+      {
+        "text": "Rock and roll",
+        "spravne": true,
+        "vysvetleni": "Vznikl v USA"
+      },
+      {
+        "text": "Polka",
+        "spravne": false,
+        "vysvetleni": "Z Evropy"
+      }
+    ]
+  },
+  "25": {
+    "otazka": "Které z těchto filmů režíroval Steven Spielberg?",
+    "moznosti": [
+      {
+        "text": "Čelisti",
+        "spravne": true,
+        "vysvetleni": "Režie Spielberg"
+      },
+      {
+        "text": "Vetřelec",
+        "spravne": false,
+        "vysvetleni": "Režie Ridley Scott"
+      },
+      {
+        "text": "E.T. – Mimozemšťan",
+        "spravne": true,
+        "vysvetleni": "Režie Spielberg"
+      },
+      {
+        "text": "Terminátor",
+        "spravne": false,
+        "vysvetleni": "Režie Cameron"
+      },
+      {
+        "text": "Jurský park",
+        "spravne": true,
+        "vysvetleni": "Režie Spielberg"
+      },
+      {
+        "text": "Pán prstenů: Společenstvo Prstenu",
+        "spravne": false,
+        "vysvetleni": "Režie Jackson"
+      },
+      {
+        "text": "Schindlerův seznam",
+        "spravne": true,
+        "vysvetleni": "Režie Spielberg"
+      },
+      {
+        "text": "Vykoupení z věznice Shawshank",
+        "spravne": false,
+        "vysvetleni": "Režie Darabont"
+      },
+      {
+        "text": "Zachraňte vojína Ryana",
+        "spravne": true,
+        "vysvetleni": "Režie Spielberg"
+      },
+      {
+        "text": "Titanic",
+        "spravne": false,
+        "vysvetleni": "Režie Cameron"
+      }
+    ]
+  },
+  "26": {
+    "otazka": "Které z těchto osobností byly československými nebo českými prezidenty?",
+    "moznosti": [
+      {
+        "text": "Tomáš Garrigue Masaryk",
+        "spravne": true,
+        "vysvetleni": "První čs. prezident"
+      },
+      {
+        "text": "Alexander Dubček",
+        "spravne": false,
+        "vysvetleni": "Předseda parlamentu"
+      },
+      {
+        "text": "Edvard Beneš",
+        "spravne": true,
+        "vysvetleni": "Čs. prezident"
+      },
+      {
+        "text": "Jan Masaryk",
+        "spravne": false,
+        "vysvetleni": "Ministr zahraničí"
+      },
+      {
+        "text": "Antonín Zápotocký",
+        "spravne": true,
+        "vysvetleni": "Čs. prezident"
+      },
+      {
+        "text": "Milada Horáková",
+        "spravne": false,
+        "vysvetleni": "Politička, popravena"
+      },
+      {
+        "text": "Gustáv Husák",
+        "spravne": true,
+        "vysvetleni": "Čs. prezident"
+      },
+      {
+        "text": "Rudolf Slánský",
+        "spravne": false,
+        "vysvetleni": "Politik, popraven"
+      },
+      {
+        "text": "Václav Havel",
+        "spravne": true,
+        "vysvetleni": "Prezident po 1989"
+      },
+      {
+        "text": "Bohumil Hrabal",
+        "spravne": false,
+        "vysvetleni": "Spisovatel"
+      }
+    ]
+  },
+  "27": {
+    "otazka": "Která z těchto měst leží v České republice?",
+    "moznosti": [
+      {
+        "text": "Olomouc",
+        "spravne": true,
+        "vysvetleni": "Město v Česku"
+      },
+      {
+        "text": "Žilina",
+        "spravne": false,
+        "vysvetleni": "Na Slovensku"
+      },
+      {
+        "text": "Zlín",
+        "spravne": true,
+        "vysvetleni": "Město v Česku"
+      },
+      {
+        "text": "Nitra",
+        "spravne": false,
+        "vysvetleni": "Na Slovensku"
+      },
+      {
+        "text": "Tábor",
+        "spravne": true,
+        "vysvetleni": "Město v Česku"
+      },
+      {
+        "text": "Katovice",
+        "spravne": false,
+        "vysvetleni": "V Polsku"
+      },
+      {
+        "text": "Cheb",
+        "spravne": true,
+        "vysvetleni": "Město v Česku"
+      },
+      {
+        "text": "Drážďany",
+        "spravne": false,
+        "vysvetleni": "V Německu"
+      },
+      {
+        "text": "Přerov",
+        "spravne": true,
+        "vysvetleni": "Město v Česku"
+      },
+      {
+        "text": "Linec",
+        "spravne": false,
+        "vysvetleni": "V Rakousku"
+      }
+    ]
+  },
+  "28": {
+    "otazka": "Které z těchto knih napsal Karel Čapek?",
+    "moznosti": [
+      {
+        "text": "R.U.R.",
+        "spravne": true,
+        "vysvetleni": "Dílo Čapka"
+      },
+      {
+        "text": "Osudy dobrého vojáka Švejka",
+        "spravne": false,
+        "vysvetleni": "Napsal Hašek"
+      },
+      {
+        "text": "Válka s mloky",
+        "spravne": true,
+        "vysvetleni": "Dílo Čapka"
+      },
+      {
+        "text": "Babička",
+        "spravne": false,
+        "vysvetleni": "Napsala Němcová"
+      },
+      {
+        "text": "Bílá nemoc",
+        "spravne": true,
+        "vysvetleni": "Dílo Čapka"
+      },
+      {
+        "text": "Saturnin",
+        "spravne": false,
+        "vysvetleni": "Napsal Jirotka"
+      },
+      {
+        "text": "Krakatit",
+        "spravne": true,
+        "vysvetleni": "Dílo Čapka"
+      },
+      {
+        "text": "Marketa Lazarová",
+        "spravne": false,
+        "vysvetleni": "Napsal Vančura"
+      },
+      {
+        "text": "Matka",
+        "spravne": true,
+        "vysvetleni": "Dílo Čapka"
+      },
+      {
+        "text": "Petr a Lucie",
+        "spravne": false,
+        "vysvetleni": "Napsal Rolland"
+      }
+    ]
+  },
+  "29": {
+    "otazka": "Které z těchto hradů a zámků se nacházejí v České republice?",
+    "moznosti": [
+      {
+        "text": "Karlštejn",
+        "spravne": true,
+        "vysvetleni": "Hrad v Česku"
+      },
+      {
+        "text": "Neuschwanstein",
+        "spravne": false,
+        "vysvetleni": "V Německu"
+      },
+      {
+        "text": "Hluboká",
+        "spravne": true,
+        "vysvetleni": "Zámek v Česku"
+      },
+      {
+        "text": "Bran",
+        "spravne": false,
+        "vysvetleni": "V Rumunsku"
+      },
+      {
+        "text": "Konopiště",
+        "spravne": true,
+        "vysvetleni": "Zámek v Česku"
+      },
+      {
+        "text": "Wawel",
+        "spravne": false,
+        "vysvetleni": "V Polsku"
+      },
+      {
+        "text": "Bouzov",
+        "spravne": true,
+        "vysvetleni": "Hrad v Česku"
+      },
+      {
+        "text": "Bojnice",
+        "spravne": false,
+        "vysvetleni": "Na Slovensku"
+      },
+      {
+        "text": "Lednice",
+        "spravne": true,
+        "vysvetleni": "Zámek v Česku"
+      },
+      {
+        "text": "Schönbrunn",
+        "spravne": false,
+        "vysvetleni": "V Rakousku"
+      }
+    ]
+  },
+  "30": {
+    "otazka": "Kteří z těchto hudebních skladatelů byli Češi?",
+    "moznosti": [
+      {
+        "text": "Antonín Dvořák",
+        "spravne": true,
+        "vysvetleni": "Český skladatel"
+      },
+      {
+        "text": "Frédéric Chopin",
+        "spravne": false,
+        "vysvetleni": "Polský skladatel"
+      },
+      {
+        "text": "Bedřich Smetana",
+        "spravne": true,
+        "vysvetleni": "Český skladatel"
+      },
+      {
+        "text": "Ferenc Liszt",
+        "spravne": false,
+        "vysvetleni": "Maďarský skladatel"
+      },
+      {
+        "text": "Leoš Janáček",
+        "spravne": true,
+        "vysvetleni": "Český skladatel"
+      },
+      {
+        "text": "Edvard Grieg",
+        "spravne": false,
+        "vysvetleni": "Norský skladatel"
+      },
+      {
+        "text": "Bohuslav Martinů",
+        "spravne": true,
+        "vysvetleni": "Český skladatel"
+      },
+      {
+        "text": "Jean Sibelius",
+        "spravne": false,
+        "vysvetleni": "Finský skladatel"
+      },
+      {
+        "text": "Josef Suk",
+        "spravne": true,
+        "vysvetleni": "Český skladatel"
+      },
+      {
+        "text": "Béla Bartók",
+        "spravne": false,
+        "vysvetleni": "Maďarský skladatel"
+      }
+    ]
+  },
+  "31": {
+    "otazka": "Které z těchto řek protékají Českou republikou?",
+    "moznosti": [
+      {
+        "text": "Vltava",
+        "spravne": true,
+        "vysvetleni": "Protéká Českem"
+      },
+      {
+        "text": "Váh",
+        "spravne": false,
+        "vysvetleni": "Na Slovensku"
+      },
+      {
+        "text": "Labe",
+        "spravne": true,
+        "vysvetleni": "Protéká Českem"
+      },
+      {
+        "text": "Visla",
+        "spravne": false,
+        "vysvetleni": "V Polsku"
+      },
+      {
+        "text": "Morava",
+        "spravne": true,
+        "vysvetleni": "Protéká Českem"
+      },
+      {
+        "text": "Dunaj",
+        "spravne": false,
+        "vysvetleni": "Neprotéká Českem"
+      },
+      {
+        "text": "Ohře",
+        "spravne": true,
+        "vysvetleni": "Protéká Českem"
+      },
+      {
+        "text": "Inn",
+        "spravne": false,
+        "vysvetleni": "Rakousko a Německo"
+      },
+      {
+        "text": "Sázava",
+        "spravne": true,
+        "vysvetleni": "Protéká Českem"
+      },
+      {
+        "text": "Tisa",
+        "spravne": false,
+        "vysvetleni": "Neprotéká Českem"
+      }
+    ]
+  },
+  "32": {
+    "otazka": "Které z těchto vynálezů a objevů jsou spojeny s českými osobnostmi?",
+    "moznosti": [
+      {
+        "text": "Měkké kontaktní čočky",
+        "spravne": true,
+        "vysvetleni": "Otto Wichterle"
+      },
+      {
+        "text": "Žárovka",
+        "spravne": false,
+        "vysvetleni": "Thomas Edison"
+      },
+      {
+        "text": "Ruchadlo",
+        "spravne": true,
+        "vysvetleni": "Bratranci Veverkové"
+      },
+      {
+        "text": "Dynamit",
+        "spravne": false,
+        "vysvetleni": "Alfred Nobel"
+      },
+      {
+        "text": "Lodní šroub",
+        "spravne": true,
+        "vysvetleni": "Josef Ressel"
+      },
+      {
+        "text": "Penicilin",
+        "spravne": false,
+        "vysvetleni": "Alexander Fleming"
+      },
+      {
+        "text": "Rozdělení krevních skupin",
+        "spravne": true,
+        "vysvetleni": "Jan Janský"
+      },
+      {
+        "text": "Rentgenové záření",
+        "spravne": false,
+        "vysvetleni": "Wilhelm Röntgen"
+      },
+      {
+        "text": "Polarografie",
+        "spravne": true,
+        "vysvetleni": "Jaroslav Heyrovský"
+      },
+      {
+        "text": "Telefon",
+        "spravne": false,
+        "vysvetleni": "Alexander Graham Bell"
+      }
+    ]
+  },
+  "33": {
+    "otazka": "Kteří z těchto tenistů a tenistek pocházejí z Česka (Československa)?",
+    "moznosti": [
+      {
+        "text": "Martina Navrátilová",
+        "spravne": true,
+        "vysvetleni": "Z Československa"
+      },
+      {
+        "text": "Steffi Graf",
+        "spravne": false,
+        "vysvetleni": "Z Německa"
+      },
+      {
+        "text": "Ivan Lendl",
+        "spravne": true,
+        "vysvetleni": "Z Československa"
+      },
+      {
+        "text": "Boris Becker",
+        "spravne": false,
+        "vysvetleni": "Z Německa"
+      },
+      {
+        "text": "Petra Kvitová",
+        "spravne": true,
+        "vysvetleni": "Z Česka"
+      },
+      {
+        "text": "Monica Selešová",
+        "spravne": false,
+        "vysvetleni": "Z Jugoslávie"
+      },
+      {
+        "text": "Tomáš Berdych",
+        "spravne": true,
+        "vysvetleni": "Z Česka"
+      },
+      {
+        "text": "Goran Ivanišević",
+        "spravne": false,
+        "vysvetleni": "Z Chorvatska"
+      },
+      {
+        "text": "Jan Kodeš",
+        "spravne": true,
+        "vysvetleni": "Z Československa"
+      },
+      {
+        "text": "Rafael Nadal",
+        "spravne": false,
+        "vysvetleni": "Ze Španělska"
+      }
+    ]
+  },
+  "34": {
+    "otazka": "Které z těchto pokrmů patří k tradiční české kuchyni?",
+    "moznosti": [
+      {
+        "text": "Svíčková na smetaně",
+        "spravne": true,
+        "vysvetleni": "Česká klasika"
+      },
+      {
+        "text": "Pizza",
+        "spravne": false,
+        "vysvetleni": "Z Itálie"
+      },
+      {
+        "text": "Vepřo knedlo zelo",
+        "spravne": true,
+        "vysvetleni": "Česká klasika"
+      },
+      {
+        "text": "Paella",
+        "spravne": false,
+        "vysvetleni": "Ze Španělska"
+      },
+      {
+        "text": "Bramboráky",
+        "spravne": true,
+        "vysvetleni": "Česká klasika"
+      },
+      {
+        "text": "Vídeňský řízek",
+        "spravne": false,
+        "vysvetleni": "Z Rakouska"
+      },
+      {
+        "text": "Utopenci",
+        "spravne": true,
+        "vysvetleni": "Česká klasika"
+      },
+      {
+        "text": "Bryndzové halušky",
+        "spravne": false,
+        "vysvetleni": "Slovenský pokrm"
+      },
+      {
+        "text": "Kulajda",
+        "spravne": true,
+        "vysvetleni": "Česká polévka"
+      },
+      {
+        "text": "Sushi",
+        "spravne": false,
+        "vysvetleni": "Z Japonska"
+      }
+    ]
+  },
+  "35": {
+    "otazka": "Které z těchto hor leží na území České republiky?",
+    "moznosti": [
+      {
+        "text": "Sněžka",
+        "spravne": true,
+        "vysvetleni": "Nejvyšší česká hora"
+      },
+      {
+        "text": "Gerlachovský štít",
+        "spravne": false,
+        "vysvetleni": "V Tatrách, Slovensko"
+      },
+      {
+        "text": "Praděd",
+        "spravne": true,
+        "vysvetleni": "Vrchol Jeseníků"
+      },
+      {
+        "text": "Rysy",
+        "spravne": false,
+        "vysvetleni": "Na hranici SK/PL"
+      },
+      {
+        "text": "Lysá hora",
+        "spravne": true,
+        "vysvetleni": "Vrchol Beskyd"
+      },
+      {
+        "text": "Mont Blanc",
+        "spravne": false,
+        "vysvetleni": "V Alpách"
+      },
+      {
+        "text": "Klínovec",
+        "spravne": true,
+        "vysvetleni": "Vrchol Krušných hor"
+      },
+      {
+        "text": "Kilimandžáro",
+        "spravne": false,
+        "vysvetleni": "V Africe"
+      },
+      {
+        "text": "Boubín",
+        "spravne": true,
+        "vysvetleni": "Vrchol na Šumavě"
+      },
+      {
+        "text": "Rax",
+        "spravne": false,
+        "vysvetleni": "V Rakousku"
+      }
+    ]
+  },
+  "36": {
+    "otazka": "Které z těchto filmů a seriálů jsou českého (československého) původu?",
+    "moznosti": [
+      {
+        "text": "Slunce, seno...",
+        "spravne": true,
+        "vysvetleni": "Český film"
+      },
+      {
+        "text": "Dallas",
+        "spravne": false,
+        "vysvetleni": "Americký seriál"
+      },
+      {
+        "text": "Vesničko má středisková",
+        "spravne": true,
+        "vysvetleni": "Český film"
+      },
+      {
+        "text": "Doktor House",
+        "spravne": false,
+        "vysvetleni": "Americký seriál"
+      },
+      {
+        "text": "Pelíšky",
+        "spravne": true,
+        "vysvetleni": "Český film"
+      },
+      {
+        "text": "Přátelé",
+        "spravne": false,
+        "vysvetleni": "Americký seriál"
+      },
+      {
+        "text": "Kolja",
+        "spravne": true,
+        "vysvetleni": "Český film"
+      },
+      {
+        "text": "Simpsonovi",
+        "spravne": false,
+        "vysvetleni": "Americký seriál"
+      },
+      {
+        "text": "Nemocnice na kraji města",
+        "spravne": true,
+        "vysvetleni": "Český seriál"
+      },
+      {
+        "text": "Chobotnice (La Piovra)",
+        "spravne": false,
+        "vysvetleni": "Italský seriál"
+      }
+    ]
+  },
+  "37": {
+    "otazka": "Které z těchto osobností se narodily na území dnešního Česka?",
+    "moznosti": [
+      {
+        "text": "Franz Kafka",
+        "spravne": true,
+        "vysvetleni": "Narozen v Praze"
+      },
+      {
+        "text": "Nikola Tesla",
+        "spravne": false,
+        "vysvetleni": "Narozen v Chorvatsku"
+      },
+      {
+        "text": "Sigmund Freud",
+        "spravne": true,
+        "vysvetleni": "Narozen v Příboře"
+      },
+      {
+        "text": "Marie Curie-Skłodowská",
+        "spravne": false,
+        "vysvetleni": "Narozena ve Varšavě"
+      },
+      {
+        "text": "Gregor Mendel",
+        "spravne": true,
+        "vysvetleni": "Narozen na Moravě"
+      },
+      {
+        "text": "Albert Einstein",
+        "spravne": false,
+        "vysvetleni": "Narozen v Ulmu"
+      },
+      {
+        "text": "Milan Kundera",
+        "spravne": true,
+        "vysvetleni": "Narozen v Brně"
+      },
+      {
+        "text": "Wolfgang Amadeus Mozart",
+        "spravne": false,
+        "vysvetleni": "Narozen v Salcburku"
+      },
+      {
+        "text": "Emil Zátopek",
+        "spravne": true,
+        "vysvetleni": "Narozen v Kopřivnici"
+      },
+      {
+        "text": "Frédéric Chopin",
+        "spravne": false,
+        "vysvetleni": "Narozen v Polsku"
+      }
+    ]
+  },
+  "38": {
+    "otazka": "Které z těchto značek a firem mají český původ?",
+    "moznosti": [
+      {
+        "text": "Škoda Auto",
+        "spravne": true,
+        "vysvetleni": "Z Mladé Boleslavi"
+      },
+      {
+        "text": "Nokia",
+        "spravne": false,
+        "vysvetleni": "Z Finska"
+      },
+      {
+        "text": "Baťa",
+        "spravne": true,
+        "vysvetleni": "Ze Zlína"
+      },
+      {
+        "text": "Lego",
+        "spravne": false,
+        "vysvetleni": "Z Dánska"
+      },
+      {
+        "text": "Kofola",
+        "spravne": true,
+        "vysvetleni": "Z Česka"
+      },
+      {
+        "text": "IKEA",
+        "spravne": false,
+        "vysvetleni": "Ze Švédska"
+      },
+      {
+        "text": "Zetor",
+        "spravne": true,
+        "vysvetleni": "Z Brna"
+      },
+      {
+        "text": "Adidas",
+        "spravne": false,
+        "vysvetleni": "Z Německa"
+      },
+      {
+        "text": "Petrof (klavíry)",
+        "spravne": true,
+        "vysvetleni": "Z Hradce Králové"
+      },
+      {
+        "text": "Nestlé",
+        "spravne": false,
+        "vysvetleni": "Ze Švýcarska"
+      }
+    ]
+  },
+  "39": {
+    "otazka": "Které z těchto prvků jsou vzácné (ušlechtilé) plyny?",
+    "moznosti": [
+      {
+        "text": "Helium",
+        "spravne": true,
+        "vysvetleni": "Vzácný plyn"
+      },
+      {
+        "text": "Vodík",
+        "spravne": false,
+        "vysvetleni": "Není vzácný plyn"
+      },
+      {
+        "text": "Neon",
+        "spravne": true,
+        "vysvetleni": "Vzácný plyn"
+      },
+      {
+        "text": "Dusík",
+        "spravne": false,
+        "vysvetleni": "Není vzácný plyn"
+      },
+      {
+        "text": "Argon",
+        "spravne": true,
+        "vysvetleni": "Vzácný plyn"
+      },
+      {
+        "text": "Kyslík",
+        "spravne": false,
+        "vysvetleni": "Není vzácný plyn"
+      },
+      {
+        "text": "Krypton",
+        "spravne": true,
+        "vysvetleni": "Vzácný plyn"
+      },
+      {
+        "text": "Fluor",
+        "spravne": false,
+        "vysvetleni": "Halogen"
+      },
+      {
+        "text": "Xenon",
+        "spravne": true,
+        "vysvetleni": "Vzácný plyn"
+      },
+      {
+        "text": "Chlor",
+        "spravne": false,
+        "vysvetleni": "Halogen"
+      }
+    ]
+  },
+  "40": {
+    "otazka": "Která z těchto zvířat jsou savci?",
+    "moznosti": [
+      {
+        "text": "Delfín",
+        "spravne": true,
+        "vysvetleni": "Savec"
+      },
+      {
+        "text": "Žralok",
+        "spravne": false,
+        "vysvetleni": "Ryba"
+      },
+      {
+        "text": "Netopýr",
+        "spravne": true,
+        "vysvetleni": "Savec"
+      },
+      {
+        "text": "Tučňák",
+        "spravne": false,
+        "vysvetleni": "Pták"
+      },
+      {
+        "text": "Velryba",
+        "spravne": true,
+        "vysvetleni": "Savec"
+      },
+      {
+        "text": "Krokodýl",
+        "spravne": false,
+        "vysvetleni": "Plaz"
+      },
+      {
+        "text": "Klokan",
+        "spravne": true,
+        "vysvetleni": "Savec"
+      },
+      {
+        "text": "Chobotnice",
+        "spravne": false,
+        "vysvetleni": "Měkkýš"
+      },
+      {
+        "text": "Ptakopysk",
+        "spravne": true,
+        "vysvetleni": "Savec kladoucí vejce"
+      },
+      {
+        "text": "Žába",
+        "spravne": false,
+        "vysvetleni": "Obojživelník"
+      }
+    ]
+  },
+  "41": {
+    "otazka": "Která z těchto těles jsou planety Sluneční soustavy?",
+    "moznosti": [
+      {
+        "text": "Merkur",
+        "spravne": true,
+        "vysvetleni": "Planeta"
+      },
+      {
+        "text": "Pluto",
+        "spravne": false,
+        "vysvetleni": "Trpasličí planeta"
+      },
+      {
+        "text": "Venuše",
+        "spravne": true,
+        "vysvetleni": "Planeta"
+      },
+      {
+        "text": "Měsíc",
+        "spravne": false,
+        "vysvetleni": "Měsíc Země"
+      },
+      {
+        "text": "Mars",
+        "spravne": true,
+        "vysvetleni": "Planeta"
+      },
+      {
+        "text": "Ceres",
+        "spravne": false,
+        "vysvetleni": "Trpasličí planeta"
+      },
+      {
+        "text": "Jupiter",
+        "spravne": true,
+        "vysvetleni": "Planeta"
+      },
+      {
+        "text": "Titan",
+        "spravne": false,
+        "vysvetleni": "Měsíc Saturnu"
+      },
+      {
+        "text": "Neptun",
+        "spravne": true,
+        "vysvetleni": "Planeta"
+      },
+      {
+        "text": "Halleyova kometa",
+        "spravne": false,
+        "vysvetleni": "Kometa"
+      }
+    ]
+  },
+  "42": {
+    "otazka": "Které z těchto látek jsou chemické prvky (nikoliv sloučeniny či slitiny)?",
+    "moznosti": [
+      {
+        "text": "Zlato",
+        "spravne": true,
+        "vysvetleni": "Chemický prvek"
+      },
+      {
+        "text": "Voda",
+        "spravne": false,
+        "vysvetleni": "Sloučenina"
+      },
+      {
+        "text": "Křemík",
+        "spravne": true,
+        "vysvetleni": "Chemický prvek"
+      },
+      {
+        "text": "Bronz",
+        "spravne": false,
+        "vysvetleni": "Slitina"
+      },
+      {
+        "text": "Rtuť",
+        "spravne": true,
+        "vysvetleni": "Chemický prvek"
+      },
+      {
+        "text": "Ocel",
+        "spravne": false,
+        "vysvetleni": "Slitina"
+      },
+      {
+        "text": "Wolfram",
+        "spravne": true,
+        "vysvetleni": "Chemický prvek"
+      },
+      {
+        "text": "Amoniak",
+        "spravne": false,
+        "vysvetleni": "Sloučenina"
+      },
+      {
+        "text": "Draslík",
+        "spravne": true,
+        "vysvetleni": "Chemický prvek"
+      },
+      {
+        "text": "Oxid uhličitý",
+        "spravne": false,
+        "vysvetleni": "Sloučenina"
+      }
+    ]
+  },
+  "43": {
+    "otazka": "Která z těchto onemocnění jsou způsobena viry (nikoliv bakteriemi)?",
+    "moznosti": [
+      {
+        "text": "Chřipka",
+        "spravne": true,
+        "vysvetleni": "Virové onemocnění"
+      },
+      {
+        "text": "Tuberkulóza",
+        "spravne": false,
+        "vysvetleni": "Bakteriální onemocnění"
+      },
+      {
+        "text": "Spalničky",
+        "spravne": true,
+        "vysvetleni": "Virové onemocnění"
+      },
+      {
+        "text": "Tetanus",
+        "spravne": false,
+        "vysvetleni": "Bakteriální onemocnění"
+      },
+      {
+        "text": "Vzteklina",
+        "spravne": true,
+        "vysvetleni": "Virové onemocnění"
+      },
+      {
+        "text": "Cholera",
+        "spravne": false,
+        "vysvetleni": "Bakteriální onemocnění"
+      },
+      {
+        "text": "COVID-19",
+        "spravne": true,
+        "vysvetleni": "Virové onemocnění"
+      },
+      {
+        "text": "Kapavka",
+        "spravne": false,
+        "vysvetleni": "Bakteriální onemocnění"
+      },
+      {
+        "text": "Plané neštovice",
+        "spravne": true,
+        "vysvetleni": "Virové onemocnění"
+      },
+      {
+        "text": "Mor",
+        "spravne": false,
+        "vysvetleni": "Bakteriální onemocnění"
+      }
+    ]
+  },
+  "44": {
+    "otazka": "Které z těchto jednotek jsou základními jednotkami soustavy SI?",
+    "moznosti": [
+      {
+        "text": "Metr",
+        "spravne": true,
+        "vysvetleni": "Základní jednotka SI"
+      },
+      {
+        "text": "Newton",
+        "spravne": false,
+        "vysvetleni": "Odvozená jednotka"
+      },
+      {
+        "text": "Kilogram",
+        "spravne": true,
+        "vysvetleni": "Základní jednotka SI"
+      },
+      {
+        "text": "Joule",
+        "spravne": false,
+        "vysvetleni": "Odvozená jednotka"
+      },
+      {
+        "text": "Sekunda",
+        "spravne": true,
+        "vysvetleni": "Základní jednotka SI"
+      },
+      {
+        "text": "Watt",
+        "spravne": false,
+        "vysvetleni": "Odvozená jednotka"
+      },
+      {
+        "text": "Ampér",
+        "spravne": true,
+        "vysvetleni": "Základní jednotka SI"
+      },
+      {
+        "text": "Volt",
+        "spravne": false,
+        "vysvetleni": "Odvozená jednotka"
+      },
+      {
+        "text": "Mol",
+        "spravne": true,
+        "vysvetleni": "Základní jednotka SI"
+      },
+      {
+        "text": "Pascal",
+        "spravne": false,
+        "vysvetleni": "Odvozená jednotka"
+      }
+    ]
+  },
+  "45": {
+    "otazka": "Která z těchto zvířat jsou bezobratlí (nemají páteř)?",
+    "moznosti": [
+      {
+        "text": "Chobotnice",
+        "spravne": true,
+        "vysvetleni": "Bezobratlý"
+      },
+      {
+        "text": "Had",
+        "spravne": false,
+        "vysvetleni": "Obratlovec"
+      },
+      {
+        "text": "Medúza",
+        "spravne": true,
+        "vysvetleni": "Bezobratlý"
+      },
+      {
+        "text": "Žralok",
+        "spravne": false,
+        "vysvetleni": "Obratlovec"
+      },
+      {
+        "text": "Včela",
+        "spravne": true,
+        "vysvetleni": "Bezobratlý"
+      },
+      {
+        "text": "Žába",
+        "spravne": false,
+        "vysvetleni": "Obratlovec"
+      },
+      {
+        "text": "Pavouk",
+        "spravne": true,
+        "vysvetleni": "Bezobratlý"
+      },
+      {
+        "text": "Netopýr",
+        "spravne": false,
+        "vysvetleni": "Obratlovec"
+      },
+      {
+        "text": "Žížala",
+        "spravne": true,
+        "vysvetleni": "Bezobratlý"
+      },
+      {
+        "text": "Losos",
+        "spravne": false,
+        "vysvetleni": "Obratlovec"
+      }
+    ]
+  },
+  "46": {
+    "otazka": "Které z těchto objevů a teorií jsou spojeny se jménem Alberta Einsteina?",
+    "moznosti": [
+      {
+        "text": "Speciální teorie relativity",
+        "spravne": true,
+        "vysvetleni": "Einsteinova teorie"
+      },
+      {
+        "text": "Zákon všeobecné gravitace",
+        "spravne": false,
+        "vysvetleni": "Isaac Newton"
+      },
+      {
+        "text": "Obecná teorie relativity",
+        "spravne": true,
+        "vysvetleni": "Einsteinova teorie"
+      },
+      {
+        "text": "Evoluce přirozeným výběrem",
+        "spravne": false,
+        "vysvetleni": "Charles Darwin"
+      },
+      {
+        "text": "Vysvětlení fotoelektrického jevu",
+        "spravne": true,
+        "vysvetleni": "Einstein, Nobelova cena"
+      },
+      {
+        "text": "Periodická tabulka prvků",
+        "spravne": false,
+        "vysvetleni": "Dmitrij Mendělejev"
+      },
+      {
+        "text": "Vztah E = mc²",
+        "spravne": true,
+        "vysvetleni": "Einsteinův vztah"
+      },
+      {
+        "text": "Princip neurčitosti",
+        "spravne": false,
+        "vysvetleni": "Werner Heisenberg"
+      },
+      {
+        "text": "Teoretické vysvětlení Brownova pohybu",
+        "spravne": true,
+        "vysvetleni": "Einstein vysvětlil"
+      },
+      {
+        "text": "Objev struktury DNA",
+        "spravne": false,
+        "vysvetleni": "Watson a Crick"
+      }
+    ]
+  },
+  "47": {
+    "otazka": "Které z těchto prvků jsou kovy?",
+    "moznosti": [
+      {
+        "text": "Železo",
+        "spravne": true,
+        "vysvetleni": "Kov"
+      },
+      {
+        "text": "Síra",
+        "spravne": false,
+        "vysvetleni": "Nekov"
+      },
+      {
+        "text": "Měď",
+        "spravne": true,
+        "vysvetleni": "Kov"
+      },
+      {
+        "text": "Uhlík",
+        "spravne": false,
+        "vysvetleni": "Nekov"
+      },
+      {
+        "text": "Sodík",
+        "spravne": true,
+        "vysvetleni": "Kov (alkalický)"
+      },
+      {
+        "text": "Kyslík",
+        "spravne": false,
+        "vysvetleni": "Nekov"
+      },
+      {
+        "text": "Vápník",
+        "spravne": true,
+        "vysvetleni": "Kov"
+      },
+      {
+        "text": "Jód",
+        "spravne": false,
+        "vysvetleni": "Nekov"
+      },
+      {
+        "text": "Hliník",
+        "spravne": true,
+        "vysvetleni": "Kov"
+      },
+      {
+        "text": "Fosfor",
+        "spravne": false,
+        "vysvetleni": "Nekov"
+      }
+    ]
+  },
+  "48": {
+    "otazka": "Které z těchto orgánů patří k lidské trávicí soustavě?",
+    "moznosti": [
+      {
+        "text": "Žaludek",
+        "spravne": true,
+        "vysvetleni": "Trávicí orgán"
+      },
+      {
+        "text": "Ledviny",
+        "spravne": false,
+        "vysvetleni": "Vylučovací soustava"
+      },
+      {
+        "text": "Slinivka břišní",
+        "spravne": true,
+        "vysvetleni": "Trávicí orgán"
+      },
+      {
+        "text": "Plíce",
+        "spravne": false,
+        "vysvetleni": "Dýchací soustava"
+      },
+      {
+        "text": "Játra",
+        "spravne": true,
+        "vysvetleni": "Trávicí orgán"
+      },
+      {
+        "text": "Srdce",
+        "spravne": false,
+        "vysvetleni": "Oběhová soustava"
+      },
+      {
+        "text": "Tenké střevo",
+        "spravne": true,
+        "vysvetleni": "Trávicí orgán"
+      },
+      {
+        "text": "Slezina",
+        "spravne": false,
+        "vysvetleni": "Lymfatická soustava"
+      },
+      {
+        "text": "Jícen",
+        "spravne": true,
+        "vysvetleni": "Trávicí orgán"
+      },
+      {
+        "text": "Močový měchýř",
+        "spravne": false,
+        "vysvetleni": "Vylučovací soustava"
+      }
+    ]
+  },
+  "49": {
+    "otazka": "Která z těchto zvířat kladou vejce?",
+    "moznosti": [
+      {
+        "text": "Krokodýl",
+        "spravne": true,
+        "vysvetleni": "Klade vejce"
+      },
+      {
+        "text": "Delfín",
+        "spravne": false,
+        "vysvetleni": "Rodí mláďata"
+      },
+      {
+        "text": "Slepice",
+        "spravne": true,
+        "vysvetleni": "Klade vejce"
+      },
+      {
+        "text": "Slon",
+        "spravne": false,
+        "vysvetleni": "Rodí mláďata"
+      },
+      {
+        "text": "Ptakopysk",
+        "spravne": true,
+        "vysvetleni": "Savec kladoucí vejce"
+      },
+      {
+        "text": "Netopýr",
+        "spravne": false,
+        "vysvetleni": "Rodí mláďata"
+      },
+      {
+        "text": "Losos",
+        "spravne": true,
+        "vysvetleni": "Klade jikry"
+      },
+      {
+        "text": "Klokan",
+        "spravne": false,
+        "vysvetleni": "Rodí mláďata"
+      },
+      {
+        "text": "Želva",
+        "spravne": true,
+        "vysvetleni": "Klade vejce"
+      },
+      {
+        "text": "Kůň",
+        "spravne": false,
+        "vysvetleni": "Rodí mláďata"
+      }
+    ]
+  },
+  "50": {
+    "otazka": "Které z těchto látek jsou za běžných podmínek plynné?",
+    "moznosti": [
+      {
+        "text": "Kyslík",
+        "spravne": true,
+        "vysvetleni": "Plyn"
+      },
+      {
+        "text": "Rtuť",
+        "spravne": false,
+        "vysvetleni": "Kapalina"
+      },
+      {
+        "text": "Dusík",
+        "spravne": true,
+        "vysvetleni": "Plyn"
+      },
+      {
+        "text": "Voda",
+        "spravne": false,
+        "vysvetleni": "Kapalina"
+      },
+      {
+        "text": "Oxid uhličitý",
+        "spravne": true,
+        "vysvetleni": "Plyn"
+      },
+      {
+        "text": "Železo",
+        "spravne": false,
+        "vysvetleni": "Pevná látka"
+      },
+      {
+        "text": "Helium",
+        "spravne": true,
+        "vysvetleni": "Plyn"
+      },
+      {
+        "text": "Ethanol",
+        "spravne": false,
+        "vysvetleni": "Kapalina"
+      },
+      {
+        "text": "Metan",
+        "spravne": true,
+        "vysvetleni": "Plyn"
+      },
+      {
+        "text": "Kuchyňská sůl",
+        "spravne": false,
+        "vysvetleni": "Pevná látka"
+      }
+    ]
+  },
+  "51": {
+    "otazka": "Které z těchto zemí leží v Jižní Americe?",
+    "moznosti": [
+      {
+        "text": "Peru",
+        "spravne": true,
+        "vysvetleni": "V Jižní Americe"
+      },
+      {
+        "text": "Panama",
+        "spravne": false,
+        "vysvetleni": "Střední Amerika"
+      },
+      {
+        "text": "Kolumbie",
+        "spravne": true,
+        "vysvetleni": "V Jižní Americe"
+      },
+      {
+        "text": "Mexiko",
+        "spravne": false,
+        "vysvetleni": "Severní Amerika"
+      },
+      {
+        "text": "Uruguay",
+        "spravne": true,
+        "vysvetleni": "V Jižní Americe"
+      },
+      {
+        "text": "Belize",
+        "spravne": false,
+        "vysvetleni": "Střední Amerika"
+      },
+      {
+        "text": "Paraguay",
+        "spravne": true,
+        "vysvetleni": "V Jižní Americe"
+      },
+      {
+        "text": "Honduras",
+        "spravne": false,
+        "vysvetleni": "Střední Amerika"
+      },
+      {
+        "text": "Venezuela",
+        "spravne": true,
+        "vysvetleni": "V Jižní Americe"
+      },
+      {
+        "text": "Portoriko",
+        "spravne": false,
+        "vysvetleni": "Karibik"
+      }
+    ]
+  },
+  "52": {
+    "otazka": "Které z těchto útvarů jsou ve skutečnosti jezera (nikoliv moře spojená s oceánem)?",
+    "moznosti": [
+      {
+        "text": "Kaspické moře",
+        "spravne": true,
+        "vysvetleni": "Největší jezero světa"
+      },
+      {
+        "text": "Rudé moře",
+        "spravne": false,
+        "vysvetleni": "Skutečné moře"
+      },
+      {
+        "text": "Aralské moře",
+        "spravne": true,
+        "vysvetleni": "Vysychající jezero"
+      },
+      {
+        "text": "Černé moře",
+        "spravne": false,
+        "vysvetleni": "Skutečné moře"
+      },
+      {
+        "text": "Mrtvé moře",
+        "spravne": true,
+        "vysvetleni": "Slané jezero"
+      },
+      {
+        "text": "Baltské moře",
+        "spravne": false,
+        "vysvetleni": "Skutečné moře"
+      },
+      {
+        "text": "Bajkal",
+        "spravne": true,
+        "vysvetleni": "Nejhlubší jezero světa"
+      },
+      {
+        "text": "Jaderské moře",
+        "spravne": false,
+        "vysvetleni": "Skutečné moře"
+      },
+      {
+        "text": "Viktoriino jezero",
+        "spravne": true,
+        "vysvetleni": "Jezero v Africe"
+      },
+      {
+        "text": "Severní moře",
+        "spravne": false,
+        "vysvetleni": "Skutečné moře"
+      }
+    ]
+  },
+  "53": {
+    "otazka": "Které z těchto bitev se odehrály během druhé světové války?",
+    "moznosti": [
+      {
+        "text": "Bitva o Stalingrad",
+        "spravne": true,
+        "vysvetleni": "Druhá světová válka"
+      },
+      {
+        "text": "Bitva u Waterloo",
+        "spravne": false,
+        "vysvetleni": "Rok 1815"
+      },
+      {
+        "text": "Vylodění v Normandii",
+        "spravne": true,
+        "vysvetleni": "Druhá světová válka"
+      },
+      {
+        "text": "Bitva u Hastingsu",
+        "spravne": false,
+        "vysvetleni": "Rok 1066"
+      },
+      {
+        "text": "Bitva o Midway",
+        "spravne": true,
+        "vysvetleni": "Druhá světová válka"
+      },
+      {
+        "text": "Bitva u Verdunu",
+        "spravne": false,
+        "vysvetleni": "První světová válka"
+      },
+      {
+        "text": "Bitva u El Alamejnu",
+        "spravne": true,
+        "vysvetleni": "Druhá světová válka"
+      },
+      {
+        "text": "Bitva u Trafalgaru",
+        "spravne": false,
+        "vysvetleni": "Rok 1805"
+      },
+      {
+        "text": "Bitva v Ardenách",
+        "spravne": true,
+        "vysvetleni": "Druhá světová válka"
+      },
+      {
+        "text": "Bitva u Gettysburgu",
+        "spravne": false,
+        "vysvetleni": "Americká občanská válka"
+      }
+    ]
+  },
+  "54": {
+    "otazka": "Které z těchto zemí mají více než 100 milionů obyvatel?",
+    "moznosti": [
+      {
+        "text": "Indie",
+        "spravne": true,
+        "vysvetleni": "Přes miliardu obyvatel"
+      },
+      {
+        "text": "Kanada",
+        "spravne": false,
+        "vysvetleni": "Asi 40 milionů"
+      },
+      {
+        "text": "Čína",
+        "spravne": true,
+        "vysvetleni": "Přes miliardu obyvatel"
+      },
+      {
+        "text": "Austrálie",
+        "spravne": false,
+        "vysvetleni": "Asi 26 milionů"
+      },
+      {
+        "text": "USA",
+        "spravne": true,
+        "vysvetleni": "Přes 300 milionů"
+      },
+      {
+        "text": "Španělsko",
+        "spravne": false,
+        "vysvetleni": "Asi 48 milionů"
+      },
+      {
+        "text": "Indonésie",
+        "spravne": true,
+        "vysvetleni": "Přes 270 milionů"
+      },
+      {
+        "text": "Argentina",
+        "spravne": false,
+        "vysvetleni": "Asi 46 milionů"
+      },
+      {
+        "text": "Brazílie",
+        "spravne": true,
+        "vysvetleni": "Přes 200 milionů"
+      },
+      {
+        "text": "Polsko",
+        "spravne": false,
+        "vysvetleni": "Asi 38 milionů"
+      }
+    ]
+  },
+  "55": {
+    "otazka": "Které z těchto památek se nacházejí v Itálii?",
+    "moznosti": [
+      {
+        "text": "Koloseum",
+        "spravne": true,
+        "vysvetleni": "V Římě"
+      },
+      {
+        "text": "Akropole",
+        "spravne": false,
+        "vysvetleni": "V Řecku"
+      },
+      {
+        "text": "Šikmá věž v Pise",
+        "spravne": true,
+        "vysvetleni": "V Itálii"
+      },
+      {
+        "text": "Sagrada Família",
+        "spravne": false,
+        "vysvetleni": "Ve Španělsku"
+      },
+      {
+        "text": "Fontána di Trevi",
+        "spravne": true,
+        "vysvetleni": "V Římě"
+      },
+      {
+        "text": "Braniborská brána",
+        "spravne": false,
+        "vysvetleni": "V Německu"
+      },
+      {
+        "text": "Milánský Dóm",
+        "spravne": true,
+        "vysvetleni": "V Itálii"
+      },
+      {
+        "text": "Eiffelova věž",
+        "spravne": false,
+        "vysvetleni": "Ve Francii"
+      },
+      {
+        "text": "Pompeje",
+        "spravne": true,
+        "vysvetleni": "V Itálii"
+      },
+      {
+        "text": "Big Ben",
+        "spravne": false,
+        "vysvetleni": "V Anglii"
+      }
+    ]
+  },
+  "56": {
+    "otazka": "Které z těchto jazyků patří mezi románské (vzniklé z latiny)?",
+    "moznosti": [
+      {
+        "text": "Španělština",
+        "spravne": true,
+        "vysvetleni": "Románský jazyk"
+      },
+      {
+        "text": "Němčina",
+        "spravne": false,
+        "vysvetleni": "Germánský jazyk"
+      },
+      {
+        "text": "Francouzština",
+        "spravne": true,
+        "vysvetleni": "Románský jazyk"
+      },
+      {
+        "text": "Řečtina",
+        "spravne": false,
+        "vysvetleni": "Vlastní větev"
+      },
+      {
+        "text": "Italština",
+        "spravne": true,
+        "vysvetleni": "Románský jazyk"
+      },
+      {
+        "text": "Polština",
+        "spravne": false,
+        "vysvetleni": "Slovanský jazyk"
+      },
+      {
+        "text": "Portugalština",
+        "spravne": true,
+        "vysvetleni": "Románský jazyk"
+      },
+      {
+        "text": "Nizozemština",
+        "spravne": false,
+        "vysvetleni": "Germánský jazyk"
+      },
+      {
+        "text": "Rumunština",
+        "spravne": true,
+        "vysvetleni": "Románský jazyk"
+      },
+      {
+        "text": "Finština",
+        "spravne": false,
+        "vysvetleni": "Ugrofinský jazyk"
+      }
+    ]
+  },
+  "57": {
+    "otazka": "Které z těchto zemí byly svazovými republikami Sovětského svazu?",
+    "moznosti": [
+      {
+        "text": "Litva",
+        "spravne": true,
+        "vysvetleni": "Sovětská republika"
+      },
+      {
+        "text": "Polsko",
+        "spravne": false,
+        "vysvetleni": "Jen Varšavská smlouva"
+      },
+      {
+        "text": "Ukrajina",
+        "spravne": true,
+        "vysvetleni": "Sovětská republika"
+      },
+      {
+        "text": "Mongolsko",
+        "spravne": false,
+        "vysvetleni": "Nebylo v SSSR"
+      },
+      {
+        "text": "Kazachstán",
+        "spravne": true,
+        "vysvetleni": "Sovětská republika"
+      },
+      {
+        "text": "Bulharsko",
+        "spravne": false,
+        "vysvetleni": "Jen Varšavská smlouva"
+      },
+      {
+        "text": "Gruzie",
+        "spravne": true,
+        "vysvetleni": "Sovětská republika"
+      },
+      {
+        "text": "Finsko",
+        "spravne": false,
+        "vysvetleni": "Nebylo v SSSR"
+      },
+      {
+        "text": "Estonsko",
+        "spravne": true,
+        "vysvetleni": "Sovětská republika"
+      },
+      {
+        "text": "Rumunsko",
+        "spravne": false,
+        "vysvetleni": "Jen Varšavská smlouva"
+      }
+    ]
+  },
+  "58": {
+    "otazka": "Které z těchto her napsal William Shakespeare?",
+    "moznosti": [
+      {
+        "text": "Hamlet",
+        "spravne": true,
+        "vysvetleni": "Hra Shakespeara"
+      },
+      {
+        "text": "Faust",
+        "spravne": false,
+        "vysvetleni": "Napsal Goethe"
+      },
+      {
+        "text": "Macbeth",
+        "spravne": true,
+        "vysvetleni": "Hra Shakespeara"
+      },
+      {
+        "text": "Don Quijote",
+        "spravne": false,
+        "vysvetleni": "Napsal Cervantes"
+      },
+      {
+        "text": "Othello",
+        "spravne": true,
+        "vysvetleni": "Hra Shakespeara"
+      },
+      {
+        "text": "Božská komedie",
+        "spravne": false,
+        "vysvetleni": "Napsal Dante"
+      },
+      {
+        "text": "Romeo a Julie",
+        "spravne": true,
+        "vysvetleni": "Hra Shakespeara"
+      },
+      {
+        "text": "Odyssea",
+        "spravne": false,
+        "vysvetleni": "Napsal Homér"
+      },
+      {
+        "text": "Král Lear",
+        "spravne": true,
+        "vysvetleni": "Hra Shakespeara"
+      },
+      {
+        "text": "Bídníci",
+        "spravne": false,
+        "vysvetleni": "Napsal Hugo"
+      }
+    ]
+  },
+  "59": {
+    "otazka": "Které z těchto pojmů jsou světové oceány?",
+    "moznosti": [
+      {
+        "text": "Tichý oceán",
+        "spravne": true,
+        "vysvetleni": "Světový oceán"
+      },
+      {
+        "text": "Středozemní moře",
+        "spravne": false,
+        "vysvetleni": "Moře, ne oceán"
+      },
+      {
+        "text": "Atlantský oceán",
+        "spravne": true,
+        "vysvetleni": "Světový oceán"
+      },
+      {
+        "text": "Karibské moře",
+        "spravne": false,
+        "vysvetleni": "Moře, ne oceán"
+      },
+      {
+        "text": "Indický oceán",
+        "spravne": true,
+        "vysvetleni": "Světový oceán"
+      },
+      {
+        "text": "Rudé moře",
+        "spravne": false,
+        "vysvetleni": "Moře, ne oceán"
+      },
+      {
+        "text": "Severní ledový oceán",
+        "spravne": true,
+        "vysvetleni": "Světový oceán"
+      },
+      {
+        "text": "Baltské moře",
+        "spravne": false,
+        "vysvetleni": "Moře, ne oceán"
+      },
+      {
+        "text": "Jižní oceán",
+        "spravne": true,
+        "vysvetleni": "Světový oceán"
+      },
+      {
+        "text": "Beringovo moře",
+        "spravne": false,
+        "vysvetleni": "Moře, ne oceán"
+      }
+    ]
+  },
+  "60": {
+    "otazka": "Které z těchto žen byly vládnoucími panovnicemi (královny/císařovny)?",
+    "moznosti": [
+      {
+        "text": "Alžběta I. Anglická",
+        "spravne": true,
+        "vysvetleni": "Vládnoucí královna"
+      },
+      {
+        "text": "Marie Antoinetta",
+        "spravne": false,
+        "vysvetleni": "Jen manželka krále"
+      },
+      {
+        "text": "Kateřina Veliká",
+        "spravne": true,
+        "vysvetleni": "Vládnoucí carevna"
+      },
+      {
+        "text": "Jana z Arku",
+        "spravne": false,
+        "vysvetleni": "Nebyla panovnice"
+      },
+      {
+        "text": "Marie Terezie",
+        "spravne": true,
+        "vysvetleni": "Vládnoucí panovnice"
+      },
+      {
+        "text": "Anna Boleynová",
+        "spravne": false,
+        "vysvetleni": "Jen manželka krále"
+      },
+      {
+        "text": "Královna Viktorie",
+        "spravne": true,
+        "vysvetleni": "Vládnoucí královna"
+      },
+      {
+        "text": "Matka Tereza",
+        "spravne": false,
+        "vysvetleni": "Řeholnice"
+      },
+      {
+        "text": "Kleopatra",
+        "spravne": true,
+        "vysvetleni": "Vládnoucí královna"
+      },
+      {
+        "text": "Princezna Diana",
+        "spravne": false,
+        "vysvetleni": "Nebyla panovnice"
+      }
+    ]
+  },
+  "61": {
+    "otazka": "Ve kterých z těchto zemí se jezdí vlevo (levostranný provoz)?",
+    "moznosti": [
+      {
+        "text": "Velká Británie",
+        "spravne": true,
+        "vysvetleni": "Jezdí vlevo"
+      },
+      {
+        "text": "Francie",
+        "spravne": false,
+        "vysvetleni": "Jezdí vpravo"
+      },
+      {
+        "text": "Japonsko",
+        "spravne": true,
+        "vysvetleni": "Jezdí vlevo"
+      },
+      {
+        "text": "Německo",
+        "spravne": false,
+        "vysvetleni": "Jezdí vpravo"
+      },
+      {
+        "text": "Austrálie",
+        "spravne": true,
+        "vysvetleni": "Jezdí vlevo"
+      },
+      {
+        "text": "USA",
+        "spravne": false,
+        "vysvetleni": "Jezdí vpravo"
+      },
+      {
+        "text": "Indie",
+        "spravne": true,
+        "vysvetleni": "Jezdí vlevo"
+      },
+      {
+        "text": "Čína",
+        "spravne": false,
+        "vysvetleni": "Jezdí vpravo"
+      },
+      {
+        "text": "Jihoafrická republika",
+        "spravne": true,
+        "vysvetleni": "Jezdí vlevo"
+      },
+      {
+        "text": "Brazílie",
+        "spravne": false,
+        "vysvetleni": "Jezdí vpravo"
+      }
+    ]
+  },
+  "62": {
+    "otazka": "Které z těchto souhvězdí patří do zvěrokruhu (zvířetníku)?",
+    "moznosti": [
+      {
+        "text": "Beran",
+        "spravne": true,
+        "vysvetleni": "Znamení zvěrokruhu"
+      },
+      {
+        "text": "Velký vůz",
+        "spravne": false,
+        "vysvetleni": "Součást Velké medvědice"
+      },
+      {
+        "text": "Býk",
+        "spravne": true,
+        "vysvetleni": "Znamení zvěrokruhu"
+      },
+      {
+        "text": "Orion",
+        "spravne": false,
+        "vysvetleni": "Není zvěrokruh"
+      },
+      {
+        "text": "Lev",
+        "spravne": true,
+        "vysvetleni": "Znamení zvěrokruhu"
+      },
+      {
+        "text": "Kasiopeja",
+        "spravne": false,
+        "vysvetleni": "Není zvěrokruh"
+      },
+      {
+        "text": "Štír",
+        "spravne": true,
+        "vysvetleni": "Znamení zvěrokruhu"
+      },
+      {
+        "text": "Jižní kříž",
+        "spravne": false,
+        "vysvetleni": "Není zvěrokruh"
+      },
+      {
+        "text": "Ryby",
+        "spravne": true,
+        "vysvetleni": "Znamení zvěrokruhu"
+      },
+      {
+        "text": "Labuť",
+        "spravne": false,
+        "vysvetleni": "Není zvěrokruh"
+      }
+    ]
+  },
+  "63": {
+    "otazka": "Které z těchto zemí leží alespoň zčásti na Balkánském poloostrově?",
+    "moznosti": [
+      {
+        "text": "Řecko",
+        "spravne": true,
+        "vysvetleni": "Balkánský poloostrov"
+      },
+      {
+        "text": "Rakousko",
+        "spravne": false,
+        "vysvetleni": "Střední Evropa"
+      },
+      {
+        "text": "Srbsko",
+        "spravne": true,
+        "vysvetleni": "Balkánský poloostrov"
+      },
+      {
+        "text": "Slovensko",
+        "spravne": false,
+        "vysvetleni": "Střední Evropa"
+      },
+      {
+        "text": "Bulharsko",
+        "spravne": true,
+        "vysvetleni": "Balkánský poloostrov"
+      },
+      {
+        "text": "Itálie",
+        "spravne": false,
+        "vysvetleni": "Apeninský poloostrov"
+      },
+      {
+        "text": "Albánie",
+        "spravne": true,
+        "vysvetleni": "Balkánský poloostrov"
+      },
+      {
+        "text": "Maďarsko",
+        "spravne": false,
+        "vysvetleni": "Střední Evropa"
+      },
+      {
+        "text": "Bosna a Hercegovina",
+        "spravne": true,
+        "vysvetleni": "Balkánský poloostrov"
+      },
+      {
+        "text": "Ukrajina",
+        "spravne": false,
+        "vysvetleni": "Východní Evropa"
+      }
+    ]
+  },
+  "64": {
+    "otazka": "Které z těchto filmů patří do světa J. R. R. Tolkiena?",
+    "moznosti": [
+      {
+        "text": "Společenstvo Prstenu",
+        "spravne": true,
+        "vysvetleni": "Pán prstenů"
+      },
+      {
+        "text": "Letopisy Narnie",
+        "spravne": false,
+        "vysvetleni": "Jiná fantasy série"
+      },
+      {
+        "text": "Dvě věže",
+        "spravne": true,
+        "vysvetleni": "Pán prstenů"
+      },
+      {
+        "text": "Zaklínač",
+        "spravne": false,
+        "vysvetleni": "Jiná fantasy série"
+      },
+      {
+        "text": "Návrat krále",
+        "spravne": true,
+        "vysvetleni": "Pán prstenů"
+      },
+      {
+        "text": "Hra o trůny",
+        "spravne": false,
+        "vysvetleni": "Jiná fantasy série"
+      },
+      {
+        "text": "Hobit: Neočekávaná cesta",
+        "spravne": true,
+        "vysvetleni": "Tolkienův svět"
+      },
+      {
+        "text": "Harry Potter",
+        "spravne": false,
+        "vysvetleni": "Jiná fantasy série"
+      },
+      {
+        "text": "Hobit: Šmakova dračí poušť",
+        "spravne": true,
+        "vysvetleni": "Tolkienův svět"
+      },
+      {
+        "text": "Percy Jackson",
+        "spravne": false,
+        "vysvetleni": "Jiná fantasy série"
+      }
+    ]
+  },
+  "65": {
+    "otazka": "Které z těchto hudebních nástrojů patří mezi bicí (perkuse)?",
+    "moznosti": [
+      {
+        "text": "Bubny",
+        "spravne": true,
+        "vysvetleni": "Bicí nástroj"
+      },
+      {
+        "text": "Housle",
+        "spravne": false,
+        "vysvetleni": "Smyčcový nástroj"
+      },
+      {
+        "text": "Xylofon",
+        "spravne": true,
+        "vysvetleni": "Bicí nástroj"
+      },
+      {
+        "text": "Trumpeta",
+        "spravne": false,
+        "vysvetleni": "Žesťový nástroj"
+      },
+      {
+        "text": "Činely",
+        "spravne": true,
+        "vysvetleni": "Bicí nástroj"
+      },
+      {
+        "text": "Klarinet",
+        "spravne": false,
+        "vysvetleni": "Dechový nástroj"
+      },
+      {
+        "text": "Triangl",
+        "spravne": true,
+        "vysvetleni": "Bicí nástroj"
+      },
+      {
+        "text": "Harfa",
+        "spravne": false,
+        "vysvetleni": "Strunný nástroj"
+      },
+      {
+        "text": "Tympány",
+        "spravne": true,
+        "vysvetleni": "Bicí nástroj"
+      },
+      {
+        "text": "Flétna",
+        "spravne": false,
+        "vysvetleni": "Dechový nástroj"
+      }
+    ]
+  },
+  "66": {
+    "otazka": "Které z těchto postav jsou z animovaného seriálu Simpsonovi?",
+    "moznosti": [
+      {
+        "text": "Homer",
+        "spravne": true,
+        "vysvetleni": "Postava Simpsonových"
+      },
+      {
+        "text": "Peter Griffin",
+        "spravne": false,
+        "vysvetleni": "Griffinovi"
+      },
+      {
+        "text": "Marge",
+        "spravne": true,
+        "vysvetleni": "Postava Simpsonových"
+      },
+      {
+        "text": "Stan Smith",
+        "spravne": false,
+        "vysvetleni": "Americký táta"
+      },
+      {
+        "text": "Bart",
+        "spravne": true,
+        "vysvetleni": "Postava Simpsonových"
+      },
+      {
+        "text": "Eric Cartman",
+        "spravne": false,
+        "vysvetleni": "Městečko South Park"
+      },
+      {
+        "text": "Lisa",
+        "spravne": true,
+        "vysvetleni": "Postava Simpsonových"
+      },
+      {
+        "text": "Fry",
+        "spravne": false,
+        "vysvetleni": "Futurama"
+      },
+      {
+        "text": "Ned Flanders",
+        "spravne": true,
+        "vysvetleni": "Postava Simpsonových"
+      },
+      {
+        "text": "Bob",
+        "spravne": false,
+        "vysvetleni": "Bobovy burgery"
+      }
+    ]
+  },
+  "67": {
+    "otazka": "Které z těchto filmů režíroval Quentin Tarantino?",
+    "moznosti": [
+      {
+        "text": "Pulp Fiction",
+        "spravne": true,
+        "vysvetleni": "Režie Tarantino"
+      },
+      {
+        "text": "Sin City",
+        "spravne": false,
+        "vysvetleni": "Režie Rodriguez"
+      },
+      {
+        "text": "Kill Bill",
+        "spravne": true,
+        "vysvetleni": "Režie Tarantino"
+      },
+      {
+        "text": "Drive",
+        "spravne": false,
+        "vysvetleni": "Režie Refn"
+      },
+      {
+        "text": "Nespoutaný Django",
+        "spravne": true,
+        "vysvetleni": "Režie Tarantino"
+      },
+      {
+        "text": "Sedm",
+        "spravne": false,
+        "vysvetleni": "Režie Fincher"
+      },
+      {
+        "text": "Hanebný pancharti",
+        "spravne": true,
+        "vysvetleni": "Režie Tarantino"
+      },
+      {
+        "text": "Léon",
+        "spravne": false,
+        "vysvetleni": "Režie Besson"
+      },
+      {
+        "text": "Tenkrát v Hollywoodu",
+        "spravne": true,
+        "vysvetleni": "Režie Tarantino"
+      },
+      {
+        "text": "Snatch: Prasečí steaky",
+        "spravne": false,
+        "vysvetleni": "Režie Ritchie"
+      }
+    ]
+  },
+  "68": {
+    "otazka": "Které z těchto obrazů namaloval Leonardo da Vinci?",
+    "moznosti": [
+      {
+        "text": "Mona Lisa",
+        "spravne": true,
+        "vysvetleni": "Namaloval da Vinci"
+      },
+      {
+        "text": "Hvězdná noc",
+        "spravne": false,
+        "vysvetleni": "Namaloval van Gogh"
+      },
+      {
+        "text": "Poslední večeře",
+        "spravne": true,
+        "vysvetleni": "Namaloval da Vinci"
+      },
+      {
+        "text": "Výkřik",
+        "spravne": false,
+        "vysvetleni": "Namaloval Munch"
+      },
+      {
+        "text": "Dáma s hranostajem",
+        "spravne": true,
+        "vysvetleni": "Namaloval da Vinci"
+      },
+      {
+        "text": "Guernica",
+        "spravne": false,
+        "vysvetleni": "Namaloval Picasso"
+      },
+      {
+        "text": "Vitruvský muž",
+        "spravne": true,
+        "vysvetleni": "Kresba da Vinciho"
+      },
+      {
+        "text": "Zrození Venuše",
+        "spravne": false,
+        "vysvetleni": "Namaloval Botticelli"
+      },
+      {
+        "text": "Salvator Mundi",
+        "spravne": true,
+        "vysvetleni": "Připsáno da Vincimu"
+      },
+      {
+        "text": "Stvoření Adama",
+        "spravne": false,
+        "vysvetleni": "Namaloval Michelangelo"
+      }
+    ]
+  },
+  "69": {
+    "otazka": "Které z těchto herních značek pocházejí od Nintenda?",
+    "moznosti": [
+      {
+        "text": "Mario",
+        "spravne": true,
+        "vysvetleni": "Značka Nintenda"
+      },
+      {
+        "text": "Sonic",
+        "spravne": false,
+        "vysvetleni": "Značka Segy"
+      },
+      {
+        "text": "The Legend of Zelda",
+        "spravne": true,
+        "vysvetleni": "Značka Nintenda"
+      },
+      {
+        "text": "Halo",
+        "spravne": false,
+        "vysvetleni": "Značka Microsoftu"
+      },
+      {
+        "text": "Pokémon",
+        "spravne": true,
+        "vysvetleni": "Vydává Nintendo"
+      },
+      {
+        "text": "God of War",
+        "spravne": false,
+        "vysvetleni": "Značka Sony"
+      },
+      {
+        "text": "Donkey Kong",
+        "spravne": true,
+        "vysvetleni": "Značka Nintenda"
+      },
+      {
+        "text": "Crash Bandicoot",
+        "spravne": false,
+        "vysvetleni": "Původně Sony"
+      },
+      {
+        "text": "Metroid",
+        "spravne": true,
+        "vysvetleni": "Značka Nintenda"
+      },
+      {
+        "text": "Final Fantasy",
+        "spravne": false,
+        "vysvetleni": "Značka Square Enix"
+      }
+    ]
+  },
+  "70": {
+    "otazka": "Které z těchto seriálů jsou původem britské produkce?",
+    "moznosti": [
+      {
+        "text": "Sherlock",
+        "spravne": true,
+        "vysvetleni": "Britský seriál"
+      },
+      {
+        "text": "Breaking Bad",
+        "spravne": false,
+        "vysvetleni": "Americký seriál"
+      },
+      {
+        "text": "Downton Abbey",
+        "spravne": true,
+        "vysvetleni": "Britský seriál"
+      },
+      {
+        "text": "Stranger Things",
+        "spravne": false,
+        "vysvetleni": "Americký seriál"
+      },
+      {
+        "text": "Mr. Bean",
+        "spravne": true,
+        "vysvetleni": "Britský seriál"
+      },
+      {
+        "text": "Hra o trůny",
+        "spravne": false,
+        "vysvetleni": "Americký seriál"
+      },
+      {
+        "text": "Černá zmije (Blackadder)",
+        "spravne": true,
+        "vysvetleni": "Britský seriál"
+      },
+      {
+        "text": "Sopranovi",
+        "spravne": false,
+        "vysvetleni": "Americký seriál"
+      },
+      {
+        "text": "Doctor Who",
+        "spravne": true,
+        "vysvetleni": "Britský seriál"
+      },
+      {
+        "text": "Teorie velkého třesku",
+        "spravne": false,
+        "vysvetleni": "Americký seriál"
+      }
+    ]
+  },
+  "71": {
+    "otazka": "Které z těchto animovaných filmů jsou od japonského studia Ghibli?",
+    "moznosti": [
+      {
+        "text": "Cesta do fantazie",
+        "spravne": true,
+        "vysvetleni": "Studio Ghibli"
+      },
+      {
+        "text": "Shrek",
+        "spravne": false,
+        "vysvetleni": "Studio DreamWorks"
+      },
+      {
+        "text": "Můj soused Totoro",
+        "spravne": true,
+        "vysvetleni": "Studio Ghibli"
+      },
+      {
+        "text": "Lví král",
+        "spravne": false,
+        "vysvetleni": "Studio Disney"
+      },
+      {
+        "text": "Princezna Mononoke",
+        "spravne": true,
+        "vysvetleni": "Studio Ghibli"
+      },
+      {
+        "text": "Ledové království",
+        "spravne": false,
+        "vysvetleni": "Studio Disney"
+      },
+      {
+        "text": "Nebeský zámek Laputa",
+        "spravne": true,
+        "vysvetleni": "Studio Ghibli"
+      },
+      {
+        "text": "Kráska a zvíře",
+        "spravne": false,
+        "vysvetleni": "Studio Disney"
+      },
+      {
+        "text": "Kikova doručovací služba",
+        "spravne": true,
+        "vysvetleni": "Studio Ghibli"
+      },
+      {
+        "text": "Tom a Jerry",
+        "spravne": false,
+        "vysvetleni": "Není Ghibli"
+      }
+    ]
+  },
+  "72": {
+    "otazka": "Které z těchto celebrit jsou známé především jako režiséři?",
+    "moznosti": [
+      {
+        "text": "Steven Spielberg",
+        "spravne": true,
+        "vysvetleni": "Filmový režisér"
+      },
+      {
+        "text": "Robert De Niro",
+        "spravne": false,
+        "vysvetleni": "Především herec"
+      },
+      {
+        "text": "Martin Scorsese",
+        "spravne": true,
+        "vysvetleni": "Filmový režisér"
+      },
+      {
+        "text": "Al Pacino",
+        "spravne": false,
+        "vysvetleni": "Především herec"
+      },
+      {
+        "text": "Quentin Tarantino",
+        "spravne": true,
+        "vysvetleni": "Filmový režisér"
+      },
+      {
+        "text": "Meryl Streepová",
+        "spravne": false,
+        "vysvetleni": "Především herečka"
+      },
+      {
+        "text": "Alfred Hitchcock",
+        "spravne": true,
+        "vysvetleni": "Filmový režisér"
+      },
+      {
+        "text": "Tom Hanks",
+        "spravne": false,
+        "vysvetleni": "Především herec"
+      },
+      {
+        "text": "Stanley Kubrick",
+        "spravne": true,
+        "vysvetleni": "Filmový režisér"
+      },
+      {
+        "text": "Morgan Freeman",
+        "spravne": false,
+        "vysvetleni": "Především herec"
+      }
+    ]
+  },
+  "73": {
+    "otazka": "Které z těchto postav jsou ze ságy Star Wars?",
+    "moznosti": [
+      {
+        "text": "Luke Skywalker",
+        "spravne": true,
+        "vysvetleni": "Postava Star Wars"
+      },
+      {
+        "text": "Spock",
+        "spravne": false,
+        "vysvetleni": "Star Trek"
+      },
+      {
+        "text": "Darth Vader",
+        "spravne": true,
+        "vysvetleni": "Postava Star Wars"
+      },
+      {
+        "text": "Neo",
+        "spravne": false,
+        "vysvetleni": "Matrix"
+      },
+      {
+        "text": "Yoda",
+        "spravne": true,
+        "vysvetleni": "Postava Star Wars"
+      },
+      {
+        "text": "Ellen Ripleyová",
+        "spravne": false,
+        "vysvetleni": "Vetřelec"
+      },
+      {
+        "text": "Han Solo",
+        "spravne": true,
+        "vysvetleni": "Postava Star Wars"
+      },
+      {
+        "text": "Gandalf",
+        "spravne": false,
+        "vysvetleni": "Pán prstenů"
+      },
+      {
+        "text": "Princezna Leia",
+        "spravne": true,
+        "vysvetleni": "Postava Star Wars"
+      },
+      {
+        "text": "Katniss Everdeenová",
+        "spravne": false,
+        "vysvetleni": "Hunger Games"
+      }
+    ]
+  },
+  "74": {
+    "otazka": "Které z těchto interpretů pocházejí z USA?",
+    "moznosti": [
+      {
+        "text": "Michael Jackson",
+        "spravne": true,
+        "vysvetleni": "Z USA"
+      },
+      {
+        "text": "Shakira",
+        "spravne": false,
+        "vysvetleni": "Z Kolumbie"
+      },
+      {
+        "text": "Beyoncé",
+        "spravne": true,
+        "vysvetleni": "Z USA"
+      },
+      {
+        "text": "Rihanna",
+        "spravne": false,
+        "vysvetleni": "Z Barbadosu"
+      },
+      {
+        "text": "Eminem",
+        "spravne": true,
+        "vysvetleni": "Z USA"
+      },
+      {
+        "text": "Céline Dion",
+        "spravne": false,
+        "vysvetleni": "Z Kanady"
+      },
+      {
+        "text": "Bruce Springsteen",
+        "spravne": true,
+        "vysvetleni": "Z USA"
+      },
+      {
+        "text": "Bob Marley",
+        "spravne": false,
+        "vysvetleni": "Z Jamajky"
+      },
+      {
+        "text": "Nirvana",
+        "spravne": true,
+        "vysvetleni": "Z USA"
+      },
+      {
+        "text": "Björk",
+        "spravne": false,
+        "vysvetleni": "Z Islandu"
+      }
+    ]
+  },
+  "75": {
+    "otazka": "Které z těchto animovaných filmů jsou klasikou studia Disney (nikoliv Pixar)?",
+    "moznosti": [
+      {
+        "text": "Lví král",
+        "spravne": true,
+        "vysvetleni": "Klasika Disney"
+      },
+      {
+        "text": "Shrek",
+        "spravne": false,
+        "vysvetleni": "Studio DreamWorks"
+      },
+      {
+        "text": "Malá mořská víla",
+        "spravne": true,
+        "vysvetleni": "Klasika Disney"
+      },
+      {
+        "text": "Toy Story",
+        "spravne": false,
+        "vysvetleni": "Studio Pixar"
+      },
+      {
+        "text": "Aladin",
+        "spravne": true,
+        "vysvetleni": "Klasika Disney"
+      },
+      {
+        "text": "Doba ledová",
+        "spravne": false,
+        "vysvetleni": "Studio Blue Sky"
+      },
+      {
+        "text": "Kráska a zvíře",
+        "spravne": true,
+        "vysvetleni": "Klasika Disney"
+      },
+      {
+        "text": "Jak vycvičit draka",
+        "spravne": false,
+        "vysvetleni": "Studio DreamWorks"
+      },
+      {
+        "text": "Sněhurka a sedm trpaslíků",
+        "spravne": true,
+        "vysvetleni": "Klasika Disney"
+      },
+      {
+        "text": "Já, padouch",
+        "spravne": false,
+        "vysvetleni": "Studio Illumination"
+      }
+    ]
+  },
+  "76": {
+    "otazka": "Které z těchto osobností byly českými spisovateli?",
+    "moznosti": [
+      {
+        "text": "Jaroslav Seifert",
+        "spravne": true,
+        "vysvetleni": "Český spisovatel"
+      },
+      {
+        "text": "Ernest Hemingway",
+        "spravne": false,
+        "vysvetleni": "Americký spisovatel"
+      },
+      {
+        "text": "Bohumil Hrabal",
+        "spravne": true,
+        "vysvetleni": "Český spisovatel"
+      },
+      {
+        "text": "Fjodor Dostojevskij",
+        "spravne": false,
+        "vysvetleni": "Ruský spisovatel"
+      },
+      {
+        "text": "Milan Kundera",
+        "spravne": true,
+        "vysvetleni": "Český spisovatel"
+      },
+      {
+        "text": "Gabriel García Márquez",
+        "spravne": false,
+        "vysvetleni": "Kolumbijský spisovatel"
+      },
+      {
+        "text": "Karel Čapek",
+        "spravne": true,
+        "vysvetleni": "Český spisovatel"
+      },
+      {
+        "text": "Henryk Sienkiewicz",
+        "spravne": false,
+        "vysvetleni": "Polský spisovatel"
+      },
+      {
+        "text": "Vladislav Vančura",
+        "spravne": true,
+        "vysvetleni": "Český spisovatel"
+      },
+      {
+        "text": "Umberto Eco",
+        "spravne": false,
+        "vysvetleni": "Italský spisovatel"
+      }
+    ]
+  },
+  "77": {
+    "otazka": "Která z těchto měst jsou krajská města České republiky?",
+    "moznosti": [
+      {
+        "text": "Brno",
+        "spravne": true,
+        "vysvetleni": "Krajské město"
+      },
+      {
+        "text": "Kolín",
+        "spravne": false,
+        "vysvetleni": "Není krajské město"
+      },
+      {
+        "text": "Ostrava",
+        "spravne": true,
+        "vysvetleni": "Krajské město"
+      },
+      {
+        "text": "Tábor",
+        "spravne": false,
+        "vysvetleni": "Není krajské město"
+      },
+      {
+        "text": "Plzeň",
+        "spravne": true,
+        "vysvetleni": "Krajské město"
+      },
+      {
+        "text": "Písek",
+        "spravne": false,
+        "vysvetleni": "Není krajské město"
+      },
+      {
+        "text": "Liberec",
+        "spravne": true,
+        "vysvetleni": "Krajské město"
+      },
+      {
+        "text": "Kroměříž",
+        "spravne": false,
+        "vysvetleni": "Není krajské město"
+      },
+      {
+        "text": "Karlovy Vary",
+        "spravne": true,
+        "vysvetleni": "Krajské město"
+      },
+      {
+        "text": "Mělník",
+        "spravne": false,
+        "vysvetleni": "Není krajské město"
+      }
+    ]
+  },
+  "78": {
+    "otazka": "Které z těchto českých osobností jsou herci a herečky?",
+    "moznosti": [
+      {
+        "text": "Jiřina Bohdalová",
+        "spravne": true,
+        "vysvetleni": "Česká herečka"
+      },
+      {
+        "text": "Emil Zátopek",
+        "spravne": false,
+        "vysvetleni": "Atlet"
+      },
+      {
+        "text": "Vlastimil Brodský",
+        "spravne": true,
+        "vysvetleni": "Český herec"
+      },
+      {
+        "text": "Jára Cimrman",
+        "spravne": false,
+        "vysvetleni": "Fiktivní postava"
+      },
+      {
+        "text": "Bolek Polívka",
+        "spravne": true,
+        "vysvetleni": "Český herec"
+      },
+      {
+        "text": "Věra Čáslavská",
+        "spravne": false,
+        "vysvetleni": "Gymnastka"
+      },
+      {
+        "text": "Ivan Trojan",
+        "spravne": true,
+        "vysvetleni": "Český herec"
+      },
+      {
+        "text": "Jan Železný",
+        "spravne": false,
+        "vysvetleni": "Oštěpař"
+      },
+      {
+        "text": "Anna Geislerová",
+        "spravne": true,
+        "vysvetleni": "Česká herečka"
+      },
+      {
+        "text": "Ester Ledecká",
+        "spravne": false,
+        "vysvetleni": "Sportovkyně"
+      }
+    ]
+  },
+  "79": {
+    "otazka": "Které z těchto kapel a interpretů jsou české?",
+    "moznosti": [
+      {
+        "text": "Kabát",
+        "spravne": true,
+        "vysvetleni": "Česká kapela"
+      },
+      {
+        "text": "ABBA",
+        "spravne": false,
+        "vysvetleni": "Švédská kapela"
+      },
+      {
+        "text": "Lucie",
+        "spravne": true,
+        "vysvetleni": "Česká kapela"
+      },
+      {
+        "text": "Elán",
+        "spravne": false,
+        "vysvetleni": "Slovenská kapela"
+      },
+      {
+        "text": "Chinaski",
+        "spravne": true,
+        "vysvetleni": "Česká kapela"
+      },
+      {
+        "text": "Desmod",
+        "spravne": false,
+        "vysvetleni": "Slovenská kapela"
+      },
+      {
+        "text": "Karel Gott",
+        "spravne": true,
+        "vysvetleni": "Český zpěvák"
+      },
+      {
+        "text": "Depeche Mode",
+        "spravne": false,
+        "vysvetleni": "Britská kapela"
+      },
+      {
+        "text": "Olympic",
+        "spravne": true,
+        "vysvetleni": "Česká kapela"
+      },
+      {
+        "text": "Modus",
+        "spravne": false,
+        "vysvetleni": "Slovenská kapela"
+      }
+    ]
+  },
+  "80": {
+    "otazka": "Které z těchto postav pocházejí z českých pohádek a večerníčků?",
+    "moznosti": [
+      {
+        "text": "Rákosníček",
+        "spravne": true,
+        "vysvetleni": "Český večerníček"
+      },
+      {
+        "text": "Šmoulové",
+        "spravne": false,
+        "vysvetleni": "Belgický původ"
+      },
+      {
+        "text": "Krteček",
+        "spravne": true,
+        "vysvetleni": "Český animovaný hrdina"
+      },
+      {
+        "text": "Méďa Béďa",
+        "spravne": false,
+        "vysvetleni": "Americký kreslený hrdina"
+      },
+      {
+        "text": "Rumcajs",
+        "spravne": true,
+        "vysvetleni": "Český večerníček"
+      },
+      {
+        "text": "Mickey Mouse",
+        "spravne": false,
+        "vysvetleni": "Americká postava"
+      },
+      {
+        "text": "Maková panenka",
+        "spravne": true,
+        "vysvetleni": "Český večerníček"
+      },
+      {
+        "text": "Shrek",
+        "spravne": false,
+        "vysvetleni": "Americký film"
+      },
+      {
+        "text": "Bob a Bobek",
+        "spravne": true,
+        "vysvetleni": "Český večerníček"
+      },
+      {
+        "text": "SpongeBob",
+        "spravne": false,
+        "vysvetleni": "Americký seriál"
+      }
+    ]
+  },
+  "81": {
+    "otazka": "Která z těchto pohoří leží alespoň zčásti v Česku?",
+    "moznosti": [
+      {
+        "text": "Krkonoše",
+        "spravne": true,
+        "vysvetleni": "Pohoří v Česku"
+      },
+      {
+        "text": "Vysoké Tatry",
+        "spravne": false,
+        "vysvetleni": "Na Slovensku"
+      },
+      {
+        "text": "Šumava",
+        "spravne": true,
+        "vysvetleni": "Pohoří v Česku"
+      },
+      {
+        "text": "Alpy",
+        "spravne": false,
+        "vysvetleni": "Střední Evropa, jinde"
+      },
+      {
+        "text": "Jeseníky",
+        "spravne": true,
+        "vysvetleni": "Pohoří v Česku"
+      },
+      {
+        "text": "Pyreneje",
+        "spravne": false,
+        "vysvetleni": "Španělsko a Francie"
+      },
+      {
+        "text": "Beskydy",
+        "spravne": true,
+        "vysvetleni": "Pohoří v Česku"
+      },
+      {
+        "text": "Kavkaz",
+        "spravne": false,
+        "vysvetleni": "Mezi Evropou, Asií"
+      },
+      {
+        "text": "Krušné hory",
+        "spravne": true,
+        "vysvetleni": "Pohoří v Česku"
+      },
+      {
+        "text": "Ural",
+        "spravne": false,
+        "vysvetleni": "V Rusku"
+      }
+    ]
+  },
+  "82": {
+    "otazka": "Které z těchto událostí se odehrály na českém území?",
+    "moznosti": [
+      {
+        "text": "Bitva na Bílé hoře",
+        "spravne": true,
+        "vysvetleni": "Odehrála se v Praze"
+      },
+      {
+        "text": "Bitva u Waterloo",
+        "spravne": false,
+        "vysvetleni": "V Belgii"
+      },
+      {
+        "text": "Bitva u Slavkova",
+        "spravne": true,
+        "vysvetleni": "Na Moravě"
+      },
+      {
+        "text": "Vylodění v Normandii",
+        "spravne": false,
+        "vysvetleni": "Ve Francii"
+      },
+      {
+        "text": "Sametová revoluce",
+        "spravne": true,
+        "vysvetleni": "Rok 1989, Praha"
+      },
+      {
+        "text": "Pád Berlínské zdi",
+        "spravne": false,
+        "vysvetleni": "V Německu"
+      },
+      {
+        "text": "Pražské jaro",
+        "spravne": true,
+        "vysvetleni": "Rok 1968, Praha"
+      },
+      {
+        "text": "Bitva u Trafalgaru",
+        "spravne": false,
+        "vysvetleni": "U Španělska"
+      },
+      {
+        "text": "Pražská defenestrace",
+        "spravne": true,
+        "vysvetleni": "Odehrála se v Praze"
+      },
+      {
+        "text": "Francouzská revoluce",
+        "spravne": false,
+        "vysvetleni": "Ve Francii"
+      }
+    ]
+  },
+  "83": {
+    "otazka": "Kteří z těchto sportovců reprezentovali Česko/Československo?",
+    "moznosti": [
+      {
+        "text": "Emil Zátopek",
+        "spravne": true,
+        "vysvetleni": "Český běžec"
+      },
+      {
+        "text": "Usain Bolt",
+        "spravne": false,
+        "vysvetleni": "Z Jamajky"
+      },
+      {
+        "text": "Věra Čáslavská",
+        "spravne": true,
+        "vysvetleni": "Česká gymnastka"
+      },
+      {
+        "text": "Michael Phelps",
+        "spravne": false,
+        "vysvetleni": "Z USA"
+      },
+      {
+        "text": "Jaromír Jágr",
+        "spravne": true,
+        "vysvetleni": "Český hokejista"
+      },
+      {
+        "text": "Lionel Messi",
+        "spravne": false,
+        "vysvetleni": "Z Argentiny"
+      },
+      {
+        "text": "Jan Železný",
+        "spravne": true,
+        "vysvetleni": "Český oštěpař"
+      },
+      {
+        "text": "Roger Federer",
+        "spravne": false,
+        "vysvetleni": "Ze Švýcarska"
+      },
+      {
+        "text": "Ester Ledecká",
+        "spravne": true,
+        "vysvetleni": "Česká sportovkyně"
+      },
+      {
+        "text": "Wayne Gretzky",
+        "spravne": false,
+        "vysvetleni": "Z Kanady"
+      }
+    ]
+  },
+  "84": {
+    "otazka": "Která z těchto českých měst leží na řece Vltavě?",
+    "moznosti": [
+      {
+        "text": "Praha",
+        "spravne": true,
+        "vysvetleni": "Leží na Vltavě"
+      },
+      {
+        "text": "Brno",
+        "spravne": false,
+        "vysvetleni": "Leží na Svratce"
+      },
+      {
+        "text": "České Budějovice",
+        "spravne": true,
+        "vysvetleni": "Leží na Vltavě"
+      },
+      {
+        "text": "Plzeň",
+        "spravne": false,
+        "vysvetleni": "Neleží na Vltavě"
+      },
+      {
+        "text": "Český Krumlov",
+        "spravne": true,
+        "vysvetleni": "Leží na Vltavě"
+      },
+      {
+        "text": "Olomouc",
+        "spravne": false,
+        "vysvetleni": "Leží na Moravě"
+      },
+      {
+        "text": "Týn nad Vltavou",
+        "spravne": true,
+        "vysvetleni": "Leží na Vltavě"
+      },
+      {
+        "text": "Hradec Králové",
+        "spravne": false,
+        "vysvetleni": "Leží na Labi"
+      },
+      {
+        "text": "Vyšší Brod",
+        "spravne": true,
+        "vysvetleni": "Leží na Vltavě"
+      },
+      {
+        "text": "Ostrava",
+        "spravne": false,
+        "vysvetleni": "Neleží na Vltavě"
+      }
+    ]
+  },
+  "85": {
+    "otazka": "Které z těchto osobností byly českými králi a panovníky?",
+    "moznosti": [
+      {
+        "text": "Karel IV.",
+        "spravne": true,
+        "vysvetleni": "Český král"
+      },
+      {
+        "text": "Ludvík XIV.",
+        "spravne": false,
+        "vysvetleni": "Francouzský král"
+      },
+      {
+        "text": "Přemysl Otakar II.",
+        "spravne": true,
+        "vysvetleni": "Český král"
+      },
+      {
+        "text": "Jindřich VIII.",
+        "spravne": false,
+        "vysvetleni": "Anglický král"
+      },
+      {
+        "text": "Václav IV.",
+        "spravne": true,
+        "vysvetleni": "Český král"
+      },
+      {
+        "text": "Petr Veliký",
+        "spravne": false,
+        "vysvetleni": "Ruský car"
+      },
+      {
+        "text": "Jiří z Poděbrad",
+        "spravne": true,
+        "vysvetleni": "Český král"
+      },
+      {
+        "text": "Napoleon Bonaparte",
+        "spravne": false,
+        "vysvetleni": "Francouzský císař"
+      },
+      {
+        "text": "Rudolf II.",
+        "spravne": true,
+        "vysvetleni": "Český král"
+      },
+      {
+        "text": "Fridrich Barbarossa",
+        "spravne": false,
+        "vysvetleni": "Římský císař"
+      }
+    ]
+  },
+  "86": {
+    "otazka": "Které z těchto oper napsal Bedřich Smetana nebo Antonín Dvořák?",
+    "moznosti": [
+      {
+        "text": "Prodaná nevěsta",
+        "spravne": true,
+        "vysvetleni": "Opera Smetany"
+      },
+      {
+        "text": "Carmen",
+        "spravne": false,
+        "vysvetleni": "Opera Bizeta"
+      },
+      {
+        "text": "Rusalka",
+        "spravne": true,
+        "vysvetleni": "Opera Dvořáka"
+      },
+      {
+        "text": "Aida",
+        "spravne": false,
+        "vysvetleni": "Opera Verdiho"
+      },
+      {
+        "text": "Libuše",
+        "spravne": true,
+        "vysvetleni": "Opera Smetany"
+      },
+      {
+        "text": "Figarova svatba",
+        "spravne": false,
+        "vysvetleni": "Opera Mozarta"
+      },
+      {
+        "text": "Dalibor",
+        "spravne": true,
+        "vysvetleni": "Opera Smetany"
+      },
+      {
+        "text": "Tosca",
+        "spravne": false,
+        "vysvetleni": "Opera Pucciniho"
+      },
+      {
+        "text": "Čert a Káča",
+        "spravne": true,
+        "vysvetleni": "Opera Dvořáka"
+      },
+      {
+        "text": "Kouzelná flétna",
+        "spravne": false,
+        "vysvetleni": "Opera Mozarta"
+      }
+    ]
+  },
+  "87": {
+    "otazka": "Které z těchto značek piva jsou české?",
+    "moznosti": [
+      {
+        "text": "Pilsner Urquell",
+        "spravne": true,
+        "vysvetleni": "České pivo"
+      },
+      {
+        "text": "Heineken",
+        "spravne": false,
+        "vysvetleni": "Nizozemské pivo"
+      },
+      {
+        "text": "Budvar",
+        "spravne": true,
+        "vysvetleni": "České pivo"
+      },
+      {
+        "text": "Stella Artois",
+        "spravne": false,
+        "vysvetleni": "Belgické pivo"
+      },
+      {
+        "text": "Kozel",
+        "spravne": true,
+        "vysvetleni": "České pivo"
+      },
+      {
+        "text": "Guinness",
+        "spravne": false,
+        "vysvetleni": "Irské pivo"
+      },
+      {
+        "text": "Staropramen",
+        "spravne": true,
+        "vysvetleni": "České pivo"
+      },
+      {
+        "text": "Corona",
+        "spravne": false,
+        "vysvetleni": "Mexické pivo"
+      },
+      {
+        "text": "Radegast",
+        "spravne": true,
+        "vysvetleni": "České pivo"
+      },
+      {
+        "text": "Carlsberg",
+        "spravne": false,
+        "vysvetleni": "Dánské pivo"
+      }
+    ]
+  },
+  "88": {
+    "otazka": "Které z těchto osobností jsou čeští malíři a výtvarníci?",
+    "moznosti": [
+      {
+        "text": "Alfons Mucha",
+        "spravne": true,
+        "vysvetleni": "Český malíř"
+      },
+      {
+        "text": "Pablo Picasso",
+        "spravne": false,
+        "vysvetleni": "Španělský malíř"
+      },
+      {
+        "text": "Josef Lada",
+        "spravne": true,
+        "vysvetleni": "Český malíř"
+      },
+      {
+        "text": "Salvador Dalí",
+        "spravne": false,
+        "vysvetleni": "Španělský malíř"
+      },
+      {
+        "text": "Mikoláš Aleš",
+        "spravne": true,
+        "vysvetleni": "Český malíř"
+      },
+      {
+        "text": "Claude Monet",
+        "spravne": false,
+        "vysvetleni": "Francouzský malíř"
+      },
+      {
+        "text": "František Kupka",
+        "spravne": true,
+        "vysvetleni": "Český malíř"
+      },
+      {
+        "text": "Gustav Klimt",
+        "spravne": false,
+        "vysvetleni": "Rakouský malíř"
+      },
+      {
+        "text": "Max Švabinský",
+        "spravne": true,
+        "vysvetleni": "Český malíř"
+      },
+      {
+        "text": "Vincent van Gogh",
+        "spravne": false,
+        "vysvetleni": "Nizozemský malíř"
+      }
+    ]
+  },
+  "89": {
+    "otazka": "Která z těchto zvířat jsou obojživelníci?",
+    "moznosti": [
+      {
+        "text": "Žába",
+        "spravne": true,
+        "vysvetleni": "Obojživelník"
+      },
+      {
+        "text": "Ještěrka",
+        "spravne": false,
+        "vysvetleni": "Plaz"
+      },
+      {
+        "text": "Ropucha",
+        "spravne": true,
+        "vysvetleni": "Obojživelník"
+      },
+      {
+        "text": "Had",
+        "spravne": false,
+        "vysvetleni": "Plaz"
+      },
+      {
+        "text": "Mlok",
+        "spravne": true,
+        "vysvetleni": "Obojživelník"
+      },
+      {
+        "text": "Krokodýl",
+        "spravne": false,
+        "vysvetleni": "Plaz"
+      },
+      {
+        "text": "Čolek",
+        "spravne": true,
+        "vysvetleni": "Obojživelník"
+      },
+      {
+        "text": "Želva",
+        "spravne": false,
+        "vysvetleni": "Plaz"
+      },
+      {
+        "text": "Axolotl",
+        "spravne": true,
+        "vysvetleni": "Obojživelník"
+      },
+      {
+        "text": "Užovka",
+        "spravne": false,
+        "vysvetleni": "Plaz"
+      }
+    ]
+  },
+  "90": {
+    "otazka": "Která z těchto zvířat patří mezi hmyz?",
+    "moznosti": [
+      {
+        "text": "Mravenec",
+        "spravne": true,
+        "vysvetleni": "Hmyz"
+      },
+      {
+        "text": "Pavouk",
+        "spravne": false,
+        "vysvetleni": "Pavoukovec"
+      },
+      {
+        "text": "Vážka",
+        "spravne": true,
+        "vysvetleni": "Hmyz"
+      },
+      {
+        "text": "Stonožka",
+        "spravne": false,
+        "vysvetleni": "Není hmyz"
+      },
+      {
+        "text": "Kobylka",
+        "spravne": true,
+        "vysvetleni": "Hmyz"
+      },
+      {
+        "text": "Štír",
+        "spravne": false,
+        "vysvetleni": "Pavoukovec"
+      },
+      {
+        "text": "Slunéčko sedmitečné",
+        "spravne": true,
+        "vysvetleni": "Hmyz (brouk)"
+      },
+      {
+        "text": "Klíště",
+        "spravne": false,
+        "vysvetleni": "Pavoukovec"
+      },
+      {
+        "text": "Moucha",
+        "spravne": true,
+        "vysvetleni": "Hmyz"
+      },
+      {
+        "text": "Rak",
+        "spravne": false,
+        "vysvetleni": "Korýš"
+      }
+    ]
+  },
+  "91": {
+    "otazka": "Které z těchto struktur jsou kosti v lidském těle?",
+    "moznosti": [
+      {
+        "text": "Stehenní kost",
+        "spravne": true,
+        "vysvetleni": "Kost v těle"
+      },
+      {
+        "text": "Průdušnice",
+        "spravne": false,
+        "vysvetleni": "Chrupavčitý orgán"
+      },
+      {
+        "text": "Lopatka",
+        "spravne": true,
+        "vysvetleni": "Kost v těle"
+      },
+      {
+        "text": "Bránice",
+        "spravne": false,
+        "vysvetleni": "Sval"
+      },
+      {
+        "text": "Klíční kost",
+        "spravne": true,
+        "vysvetleni": "Kost v těle"
+      },
+      {
+        "text": "Šlacha",
+        "spravne": false,
+        "vysvetleni": "Vazivo"
+      },
+      {
+        "text": "Holenní kost",
+        "spravne": true,
+        "vysvetleni": "Kost v těle"
+      },
+      {
+        "text": "Aorta",
+        "spravne": false,
+        "vysvetleni": "Céva"
+      },
+      {
+        "text": "Pažní kost",
+        "spravne": true,
+        "vysvetleni": "Kost v těle"
+      },
+      {
+        "text": "Slinivka břišní",
+        "spravne": false,
+        "vysvetleni": "Orgán"
+      }
+    ]
+  },
+  "92": {
+    "otazka": "Které z těchto plynů patří mezi skleníkové plyny?",
+    "moznosti": [
+      {
+        "text": "Oxid uhličitý",
+        "spravne": true,
+        "vysvetleni": "Skleníkový plyn"
+      },
+      {
+        "text": "Dusík",
+        "spravne": false,
+        "vysvetleni": "Není skleníkový"
+      },
+      {
+        "text": "Metan",
+        "spravne": true,
+        "vysvetleni": "Skleníkový plyn"
+      },
+      {
+        "text": "Kyslík",
+        "spravne": false,
+        "vysvetleni": "Není skleníkový"
+      },
+      {
+        "text": "Vodní pára",
+        "spravne": true,
+        "vysvetleni": "Skleníkový plyn"
+      },
+      {
+        "text": "Argon",
+        "spravne": false,
+        "vysvetleni": "Není skleníkový"
+      },
+      {
+        "text": "Oxid dusný",
+        "spravne": true,
+        "vysvetleni": "Skleníkový plyn"
+      },
+      {
+        "text": "Helium",
+        "spravne": false,
+        "vysvetleni": "Není skleníkový"
+      },
+      {
+        "text": "Ozon",
+        "spravne": true,
+        "vysvetleni": "Skleníkový plyn"
+      },
+      {
+        "text": "Neon",
+        "spravne": false,
+        "vysvetleni": "Není skleníkový"
+      }
+    ]
+  },
+  "93": {
+    "otazka": "Kteří z těchto vědců získali Nobelovu cenu za vědu?",
+    "moznosti": [
+      {
+        "text": "Marie Curie",
+        "spravne": true,
+        "vysvetleni": "Nositelka Nobelovy ceny"
+      },
+      {
+        "text": "Nikola Tesla",
+        "spravne": false,
+        "vysvetleni": "Nobela nezískal"
+      },
+      {
+        "text": "Albert Einstein",
+        "spravne": true,
+        "vysvetleni": "Nositel Nobelovy ceny"
+      },
+      {
+        "text": "Thomas Edison",
+        "spravne": false,
+        "vysvetleni": "Nobela nezískal"
+      },
+      {
+        "text": "Ernest Rutherford",
+        "spravne": true,
+        "vysvetleni": "Nositel Nobelovy ceny"
+      },
+      {
+        "text": "Dmitrij Mendělejev",
+        "spravne": false,
+        "vysvetleni": "Nobela nezískal"
+      },
+      {
+        "text": "Niels Bohr",
+        "spravne": true,
+        "vysvetleni": "Nositel Nobelovy ceny"
+      },
+      {
+        "text": "Stephen Hawking",
+        "spravne": false,
+        "vysvetleni": "Nobela nezískal"
+      },
+      {
+        "text": "Jaroslav Heyrovský",
+        "spravne": true,
+        "vysvetleni": "Nositel Nobelovy ceny"
+      },
+      {
+        "text": "Galileo Galilei",
+        "spravne": false,
+        "vysvetleni": "Žil před Nobelem"
+      }
+    ]
+  },
+  "94": {
+    "otazka": "Která z těchto zvířat jsou plazi?",
+    "moznosti": [
+      {
+        "text": "Had",
+        "spravne": true,
+        "vysvetleni": "Plaz"
+      },
+      {
+        "text": "Žába",
+        "spravne": false,
+        "vysvetleni": "Obojživelník"
+      },
+      {
+        "text": "Ještěrka",
+        "spravne": true,
+        "vysvetleni": "Plaz"
+      },
+      {
+        "text": "Mlok",
+        "spravne": false,
+        "vysvetleni": "Obojživelník"
+      },
+      {
+        "text": "Krokodýl",
+        "spravne": true,
+        "vysvetleni": "Plaz"
+      },
+      {
+        "text": "Delfín",
+        "spravne": false,
+        "vysvetleni": "Savec"
+      },
+      {
+        "text": "Želva",
+        "spravne": true,
+        "vysvetleni": "Plaz"
+      },
+      {
+        "text": "Tučňák",
+        "spravne": false,
+        "vysvetleni": "Pták"
+      },
+      {
+        "text": "Chameleon",
+        "spravne": true,
+        "vysvetleni": "Plaz"
+      },
+      {
+        "text": "Žralok",
+        "spravne": false,
+        "vysvetleni": "Ryba"
+      }
+    ]
+  },
+  "95": {
+    "otazka": "Které z těchto prvků patří mezi halogeny?",
+    "moznosti": [
+      {
+        "text": "Fluor",
+        "spravne": true,
+        "vysvetleni": "Halogen"
+      },
+      {
+        "text": "Helium",
+        "spravne": false,
+        "vysvetleni": "Vzácný plyn"
+      },
+      {
+        "text": "Chlor",
+        "spravne": true,
+        "vysvetleni": "Halogen"
+      },
+      {
+        "text": "Sodík",
+        "spravne": false,
+        "vysvetleni": "Alkalický kov"
+      },
+      {
+        "text": "Brom",
+        "spravne": true,
+        "vysvetleni": "Halogen"
+      },
+      {
+        "text": "Uhlík",
+        "spravne": false,
+        "vysvetleni": "Nekov, ne halogen"
+      },
+      {
+        "text": "Jod",
+        "spravne": true,
+        "vysvetleni": "Halogen"
+      },
+      {
+        "text": "Síra",
+        "spravne": false,
+        "vysvetleni": "Nekov, ne halogen"
+      },
+      {
+        "text": "Astat",
+        "spravne": true,
+        "vysvetleni": "Halogen"
+      },
+      {
+        "text": "Kyslík",
+        "spravne": false,
+        "vysvetleni": "Nekov, ne halogen"
+      }
+    ]
+  },
+  "96": {
+    "otazka": "Které z těchto těles jsou měsíce obíhající planety Sluneční soustavy?",
+    "moznosti": [
+      {
+        "text": "Měsíc",
+        "spravne": true,
+        "vysvetleni": "Oběžnice Země"
+      },
+      {
+        "text": "Pluto",
+        "spravne": false,
+        "vysvetleni": "Trpasličí planeta"
+      },
+      {
+        "text": "Europa",
+        "spravne": true,
+        "vysvetleni": "Měsíc Jupiteru"
+      },
+      {
+        "text": "Ceres",
+        "spravne": false,
+        "vysvetleni": "Trpasličí planeta"
+      },
+      {
+        "text": "Titan",
+        "spravne": true,
+        "vysvetleni": "Měsíc Saturnu"
+      },
+      {
+        "text": "Vesta",
+        "spravne": false,
+        "vysvetleni": "Planetka"
+      },
+      {
+        "text": "Io",
+        "spravne": true,
+        "vysvetleni": "Měsíc Jupiteru"
+      },
+      {
+        "text": "Halleyova kometa",
+        "spravne": false,
+        "vysvetleni": "Kometa"
+      },
+      {
+        "text": "Phobos",
+        "spravne": true,
+        "vysvetleni": "Měsíc Marsu"
+      },
+      {
+        "text": "Sirius",
+        "spravne": false,
+        "vysvetleni": "Hvězda"
+      }
+    ]
+  },
+  "97": {
+    "otazka": "Které z těchto objevů a vynálezů jsou spojeny s Isaacem Newtonem?",
+    "moznosti": [
+      {
+        "text": "Pohybové zákony",
+        "spravne": true,
+        "vysvetleni": "Newtonovy zákony"
+      },
+      {
+        "text": "Teorie relativity",
+        "spravne": false,
+        "vysvetleni": "Albert Einstein"
+      },
+      {
+        "text": "Gravitační zákon",
+        "spravne": true,
+        "vysvetleni": "Newtonův objev"
+      },
+      {
+        "text": "Zákony dědičnosti",
+        "spravne": false,
+        "vysvetleni": "Gregor Mendel"
+      },
+      {
+        "text": "Zrcadlový dalekohled",
+        "spravne": true,
+        "vysvetleni": "Newtonův vynález"
+      },
+      {
+        "text": "Očkování proti neštovicím",
+        "spravne": false,
+        "vysvetleni": "Edward Jenner"
+      },
+      {
+        "text": "Rozklad světla hranolem",
+        "spravne": true,
+        "vysvetleni": "Newtonův pokus"
+      },
+      {
+        "text": "Radioaktivita",
+        "spravne": false,
+        "vysvetleni": "Becquerel a Curie"
+      },
+      {
+        "text": "Diferenciální počet",
+        "spravne": true,
+        "vysvetleni": "Newton a Leibniz"
+      },
+      {
+        "text": "Teorie evoluce",
+        "spravne": false,
+        "vysvetleni": "Charles Darwin"
+      }
+    ]
+  },
+  "98": {
+    "otazka": "Které z těchto orgánů produkují hormony (patří k endokrinní soustavě)?",
+    "moznosti": [
+      {
+        "text": "Štítná žláza",
+        "spravne": true,
+        "vysvetleni": "Endokrinní žláza"
+      },
+      {
+        "text": "Slezina",
+        "spravne": false,
+        "vysvetleni": "Není endokrinní"
+      },
+      {
+        "text": "Slinivka břišní",
+        "spravne": true,
+        "vysvetleni": "Produkuje hormony"
+      },
+      {
+        "text": "Plíce",
+        "spravne": false,
+        "vysvetleni": "Dýchací orgán"
+      },
+      {
+        "text": "Nadledviny",
+        "spravne": true,
+        "vysvetleni": "Endokrinní žlázy"
+      },
+      {
+        "text": "Průdušnice",
+        "spravne": false,
+        "vysvetleni": "Dýchací cesta"
+      },
+      {
+        "text": "Hypofýza",
+        "spravne": true,
+        "vysvetleni": "Endokrinní žláza"
+      },
+      {
+        "text": "Žlučník",
+        "spravne": false,
+        "vysvetleni": "Není endokrinní"
+      },
+      {
+        "text": "Vaječníky",
+        "spravne": true,
+        "vysvetleni": "Produkují hormony"
+      },
+      {
+        "text": "Slepé střevo",
+        "spravne": false,
+        "vysvetleni": "Není endokrinní"
+      }
+    ]
+  },
+  "99": {
+    "otazka": "Které z těchto jevů jsou příklady chemické reakce (nikoliv fyzikální změny)?",
+    "moznosti": [
+      {
+        "text": "Hoření dřeva",
+        "spravne": true,
+        "vysvetleni": "Chemická reakce"
+      },
+      {
+        "text": "Tání ledu",
+        "spravne": false,
+        "vysvetleni": "Fyzikální změna"
+      },
+      {
+        "text": "Rezivění železa",
+        "spravne": true,
+        "vysvetleni": "Chemická reakce"
+      },
+      {
+        "text": "Var vody",
+        "spravne": false,
+        "vysvetleni": "Fyzikální změna"
+      },
+      {
+        "text": "Kvašení",
+        "spravne": true,
+        "vysvetleni": "Chemická reakce"
+      },
+      {
+        "text": "Rozpouštění soli",
+        "spravne": false,
+        "vysvetleni": "Fyzikální změna"
+      },
+      {
+        "text": "Trávení potravy",
+        "spravne": true,
+        "vysvetleni": "Chemická reakce"
+      },
+      {
+        "text": "Rozbití skla",
+        "spravne": false,
+        "vysvetleni": "Fyzikální změna"
+      },
+      {
+        "text": "Fotosyntéza",
+        "spravne": true,
+        "vysvetleni": "Chemická reakce"
+      },
+      {
+        "text": "Magnetizace železa",
+        "spravne": false,
+        "vysvetleni": "Fyzikální změna"
+      }
+    ]
+  },
+  "100": {
+    "otazka": "Která z těchto zvířat žijí přirozeně ve volné přírodě v Austrálii?",
+    "moznosti": [
+      {
+        "text": "Klokan",
+        "spravne": true,
+        "vysvetleni": "Žije v Austrálii"
+      },
+      {
+        "text": "Lev",
+        "spravne": false,
+        "vysvetleni": "Žije v Africe"
+      },
+      {
+        "text": "Koala",
+        "spravne": true,
+        "vysvetleni": "Žije v Austrálii"
+      },
+      {
+        "text": "Panda velká",
+        "spravne": false,
+        "vysvetleni": "Žije v Číně"
+      },
+      {
+        "text": "Ptakopysk",
+        "spravne": true,
+        "vysvetleni": "Žije v Austrálii"
+      },
+      {
+        "text": "Tygr",
+        "spravne": false,
+        "vysvetleni": "Žije v Asii"
+      },
+      {
+        "text": "Vombat",
+        "spravne": true,
+        "vysvetleni": "Žije v Austrálii"
+      },
+      {
+        "text": "Lenochod",
+        "spravne": false,
+        "vysvetleni": "Žije v Americe"
+      },
+      {
+        "text": "Tasmánský čert",
+        "spravne": true,
+        "vysvetleni": "Žije v Austrálii"
+      },
+      {
+        "text": "Polární medvěd",
+        "spravne": false,
+        "vysvetleni": "Žije v Arktidě"
+      }
+    ]
+  }
+}

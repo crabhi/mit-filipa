@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a3227">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Mít Filipa</title>
+<style>
+  :root{
+    --felt:       #0c3b2e;
+    --felt-deep:  #062419;
+    --felt-light: #14503e;
+    --cream:      #f5edda;
+    --cream-dim:  rgba(245,237,218,.55);
+    --gold:       #f0b429;
+    --gold-deep:  #c78d12;
+    --red:        #a93226;
+    --ink:        #1c2b22;
+    --font-display: "Futura", "Avenir Next Condensed", "Trebuchet MS", "Roboto Condensed", sans-serif;
+    --font-body: "Avenir Next", -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-serif: "Palatino", Georgia, serif;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ height:100%; }
+  body{
+    font-family:var(--font-body);
+    color:var(--cream);
+    background:#062419 radial-gradient(ellipse 120% 80% at 50% 0%, var(--felt-light) 0%, var(--felt) 45%, var(--felt-deep) 100%) fixed;
+    -webkit-font-smoothing:antialiased;
+    touch-action:manipulation;
+    -webkit-tap-highlight-color:transparent;
+    overflow:hidden;
+  }
+  button{ font:inherit; color:inherit; background:none; border:none; cursor:pointer; touch-action:manipulation; }
+  button:focus-visible, input:focus-visible{ outline:3px solid var(--gold); outline-offset:2px; }
+
+  #app{
+    max-width:520px; margin:0 auto; height:100vh; height:100dvh;
+    display:flex; flex-direction:column; overflow:hidden;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left);
+  }
+
+  /* ---------- wordmark ---------- */
+  .wordmark{
+    font-family:var(--font-display);
+    text-transform:uppercase; letter-spacing:.14em;
+    color:var(--gold); text-align:center;
+    font-size:clamp(1.9rem,8vw,2.6rem); font-weight:700; line-height:1;
+    text-shadow:0 2px 0 rgba(0,0,0,.35);
+  }
+  .tagline{
+    text-align:center; font-family:var(--font-serif); font-style:italic;
+    color:var(--cream-dim); font-size:.95rem; margin-top:.6rem;
+  }
+  .rule{
+    display:flex; align-items:center; gap:.7rem; margin:.7rem auto; width:70%;
+  }
+  .rule::before,.rule::after{ content:""; flex:1; height:1px; background:rgba(245,237,218,.25); }
+  .rule .pip{ width:7px; height:7px; border-radius:50%; background:var(--gold); }
+
+  /* ---------- generic ---------- */
+  .screen{ flex:1; min-height:0; display:flex; flex-direction:column; overflow:hidden; padding:.9rem 1rem calc(.9rem + env(safe-area-inset-bottom)); }
+  .eyebrow{
+    font-family:var(--font-display); text-transform:uppercase;
+    letter-spacing:.22em; font-size:.72rem; color:var(--cream-dim);
+  }
+  .btn{
+    display:block; width:100%; text-align:center;
+    font-family:var(--font-display); text-transform:uppercase; letter-spacing:.1em;
+    font-size:1rem; font-weight:700;
+    padding:.8rem 1rem; border-radius:14px;
+    transition:transform .08s ease;
+  }
+  .btn:active{ transform:scale(.97); }
+  .btn-gold{ background:linear-gradient(180deg,#f6c453,var(--gold)); color:var(--ink); box-shadow:0 3px 0 var(--gold-deep), 0 8px 18px rgba(0,0,0,.35); }
+  .btn-ghost{ border:2px solid rgba(245,237,218,.4); color:var(--cream); }
+  .btn[disabled]{ opacity:.4; pointer-events:none; }
+
+  /* ---------- setup ---------- */
+  .setup-head{ padding:.8rem 0 .2rem; }
+  .panel{
+    background:rgba(0,0,0,.22); border:1px solid rgba(245,237,218,.14);
+    border-radius:16px; padding:.85rem; margin-top:.7rem;
+  }
+  .panel h2{
+    font-family:var(--font-display); text-transform:uppercase; letter-spacing:.18em;
+    font-size:.8rem; color:var(--gold); font-weight:600; margin-bottom:.8rem;
+  }
+  .add-row{ display:flex; gap:.5rem; }
+  .add-row input{
+    flex:1; min-width:0; font:inherit; font-size:1rem;
+    background:var(--cream); color:var(--ink);
+    border:none; border-radius:10px; padding:.65rem .8rem;
+  }
+  .add-row button{
+    background:var(--gold); color:var(--ink); border-radius:10px;
+    padding:0 1rem; font-family:var(--font-display); font-weight:700;
+    text-transform:uppercase; letter-spacing:.08em; font-size:.85rem;
+  }
+  .roster{ list-style:none; margin-top:.5rem; max-height:22dvh; overflow-y:auto; }
+  .roster li{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:.4rem .2rem; border-bottom:1px dashed rgba(245,237,218,.15);
+    font-size:1rem;
+  }
+  .roster li:last-child{ border-bottom:none; }
+  .roster .rm{ color:var(--cream-dim); font-size:1.3rem; line-height:1; padding:.2rem .5rem; }
+  .roster .empty{ color:var(--cream-dim); font-family:var(--font-serif); font-style:italic; border:none; }
+  .chips{ display:flex; flex-wrap:wrap; gap:.45rem; margin-top:.5rem; max-height:10dvh; overflow-y:auto; }
+  .chips button{
+    border:1px dashed rgba(245,237,218,.4); border-radius:999px;
+    padding:.3rem .8rem; font-size:.9rem; color:var(--cream);
+  }
+  .stepper{ display:flex; align-items:center; justify-content:center; gap:1.2rem; }
+  .stepper button{
+    width:46px; height:46px; border-radius:50%;
+    border:2px solid rgba(245,237,218,.4); font-size:1.5rem; color:var(--cream);
+  }
+  .stepper .val{
+    font-family:var(--font-display); font-size:1.9rem; font-weight:700;
+    color:var(--gold); min-width:2.2ch; text-align:center;
+  }
+  .stepper .unit{ display:block; text-align:center; font-size:.8rem; color:var(--cream-dim); margin-top:.15rem; font-family:var(--font-body); letter-spacing:.05em; font-weight:400;}
+  .setup-actions{ margin-top:.9rem; display:flex; flex-direction:column; gap:.6rem; }
+
+  /* ---------- handoff ---------- */
+  .handoff{ justify-content:center; text-align:center; gap:.4rem; }
+  .handoff .name{
+    font-family:var(--font-display); text-transform:uppercase; letter-spacing:.06em;
+    font-size:clamp(2rem,10vw,3rem); font-weight:700; color:var(--gold);
+    margin:.4rem 0 .2rem; line-height:1.05; word-break:break-word;
+    animation:rise .45s ease both;
+  }
+  .handoff .hint{ font-family:var(--font-serif); font-style:italic; color:var(--cream-dim); }
+  .standings{ margin:1rem auto 0; width:100%; max-width:300px; text-align:left; overflow-y:auto; min-height:0; }
+  .standings li{
+    list-style:none; display:flex; justify-content:space-between; gap:1rem;
+    padding:.3rem 0; font-size:.95rem; color:var(--cream-dim);
+    border-bottom:1px dashed rgba(245,237,218,.12);
+  }
+  .standings li b{ color:var(--cream); font-weight:600; }
+  .handoff .btn{ margin-top:1.2rem; }
+  .endgame{
+    margin-top:.9rem; min-height:2.4rem;
+    display:flex; align-items:center; justify-content:center; gap:.6rem;
+  }
+  .endgame button{ font-size:.85rem; padding:.35rem .8rem; border-radius:999px; }
+  .endgame .link{ color:var(--cream-dim); text-decoration:underline; text-underline-offset:3px; }
+  .endgame .yes{ border:1px solid rgba(169,50,38,.85); background:rgba(169,50,38,.2); color:#f0a297; }
+  .endgame .no{ border:1px solid rgba(245,237,218,.35); color:var(--cream); }
+
+  /* ---------- ladder (signature) ---------- */
+  .ladder{ display:flex; justify-content:center; gap:.5rem; padding:.3rem 0 .1rem; }
+  .chip{
+    width:38px; height:38px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-display); font-weight:700; font-size:.9rem;
+    border:2px dashed rgba(245,237,218,.3); color:var(--cream-dim);
+    transition:transform .25s ease, background .25s ease, color .25s ease, border .25s ease;
+    position:relative;
+  }
+  .chip.earned{
+    background:radial-gradient(circle at 35% 30%, #f9d06b, var(--gold) 70%);
+    border:2px solid var(--gold-deep); color:var(--ink);
+    box-shadow:0 2px 6px rgba(0,0,0,.4);
+  }
+  .chip.stake{ transform:scale(1.22); box-shadow:0 0 0 3px rgba(240,180,41,.35), 0 3px 8px rgba(0,0,0,.5); }
+  .chip.dead{ border-color:rgba(169,50,38,.7); color:rgba(169,50,38,.9); background:rgba(169,50,38,.12); }
+  .chip.pop{ animation:chipPop .4s ease; }
+  @keyframes chipPop{ 40%{ transform:scale(1.45); } }
+  @keyframes rise{ from{ opacity:0; transform:translateY(14px);} to{ opacity:1; transform:none;} }
+
+  /* ---------- turn ---------- */
+  .turn{ padding:0; }
+  .turn-top{ padding:.55rem 1rem .2rem; }
+  .turn-meta{ display:flex; justify-content:space-between; align-items:baseline; }
+  .turn-meta .who{
+    font-family:var(--font-display); text-transform:uppercase; letter-spacing:.08em;
+    font-weight:700; color:var(--gold); font-size:1.05rem;
+  }
+  .question{
+    font-family:var(--font-serif); font-size:1.05rem; font-size:clamp(.95rem, 2.2dvh, 1.15rem);
+    line-height:1.35; padding:.35rem 1rem .5rem;
+  }
+  .answers{
+    list-style:none; flex:1; min-height:0;
+    display:grid; grid-template-columns:1fr 1fr; grid-template-rows:repeat(5, minmax(0,1fr));
+    gap:.45rem; padding:0 1rem;
+  }
+  .answers li{ min-height:0; display:flex; }
+  .card{
+    width:100%; text-align:left;
+    background:var(--cream); color:var(--ink);
+    border-radius:10px; padding:.25rem .55rem;
+    font-size:.88rem; font-size:clamp(.78rem, 1.9dvh, .95rem);
+    line-height:1.2; font-weight:500;
+    box-shadow:0 2px 5px rgba(0,0,0,.3);
+    display:flex; align-items:center; gap:.45rem; overflow:hidden;
+    transition:background .2s ease, color .2s ease, opacity .2s ease;
+  }
+  .card .mark{
+    flex:0 0 20px; width:20px; height:20px; border-radius:50%;
+    border:2px solid rgba(28,43,34,.25);
+    display:flex; align-items:center; justify-content:center;
+    font-weight:700; font-size:.7rem;
+  }
+  .card .body{
+    flex:1; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;
+  }
+  .card.good{
+    background:linear-gradient(180deg,#f6c453,var(--gold)); color:var(--ink);
+    animation:goodPop .35s ease;
+  }
+  .card.good .mark{ background:var(--ink); color:var(--gold); border-color:var(--ink); }
+  .card.bad{
+    background:var(--red); color:var(--cream);
+    animation:shake .45s ease;
+  }
+  .card.bad .mark{ background:var(--cream); color:var(--red); border-color:var(--cream); }
+  @keyframes goodPop{ 35%{ transform:scale(1.03);} }
+  @keyframes shake{
+    20%{ transform:translateX(-7px);} 40%{ transform:translateX(6px);}
+    60%{ transform:translateX(-4px);} 80%{ transform:translateX(3px);}
+  }
+  /* reveal state: unpicked answers dim uniformly — never expose which were true */
+  .revealed .card{ pointer-events:none; }
+  .revealed .card.dud{ background:rgba(245,237,218,.07); color:var(--cream-dim); box-shadow:none; }
+  .revealed .card.dud .mark{ border-color:rgba(245,237,218,.25); color:var(--cream-dim); }
+
+  .turn-bottom{ padding:.5rem 1rem calc(.55rem + env(safe-area-inset-bottom)); }
+
+  /* ---------- result banner ---------- */
+  .banner{
+    border-radius:14px; padding:.55rem .8rem;
+    animation:rise .35s ease both;
+    margin-bottom:.45rem; text-align:center;
+  }
+  .banner.win{ background:linear-gradient(180deg,#f6c453,var(--gold)); color:var(--ink); }
+  .banner.bust{ background:var(--red); color:var(--cream); }
+  .banner .big{
+    font-family:var(--font-display); text-transform:uppercase; letter-spacing:.12em;
+    font-weight:700; font-size:1.05rem;
+  }
+  .banner .sub{ font-size:.85rem; margin-top:.1rem; }
+  .banner .why{ font-family:var(--font-serif); font-style:italic; font-size:.8rem; margin-top:.15rem; }
+
+  /* ---------- scoreboard ---------- */
+  .final{ text-align:center; padding-top:.8rem; }
+  .final .crown{ font-size:1.8rem; }
+  .final .champ{
+    font-family:var(--font-display); text-transform:uppercase; letter-spacing:.06em;
+    font-size:clamp(1.7rem,8vw,2.4rem); font-weight:700; color:var(--gold); line-height:1.1;
+    word-break:break-word;
+  }
+  .board{ list-style:none; margin:.9rem auto 0; max-width:340px; width:100%; text-align:left; overflow-y:auto; min-height:0; }
+  .board li{
+    display:flex; align-items:center; gap:.8rem;
+    padding:.65rem .3rem; border-bottom:1px dashed rgba(245,237,218,.18);
+    animation:rise .4s ease both;
+  }
+  .board .pos{
+    font-family:var(--font-display); font-weight:700; color:var(--cream-dim);
+    flex:0 0 1.6ch; text-align:right;
+  }
+  .board .nm{ flex:1; font-size:1.1rem; word-break:break-word; }
+  .board .pts{ font-family:var(--font-display); font-weight:700; font-size:1.2rem; color:var(--gold); }
+  .board li.top .nm{ font-weight:700; }
+  .final-actions{ margin-top:1rem; display:flex; flex-direction:column; gap:.6rem; }
+
+  /* ---------- loading / error ---------- */
+  .center{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:2rem; gap:1rem; }
+  .center p{ color:var(--cream-dim); max-width:34ch; line-height:1.5; }
+  .center code{ background:rgba(0,0,0,.35); padding:.15rem .45rem; border-radius:6px; font-size:.85em; }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ animation:none !important; transition:none !important; }
+  }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+'use strict';
+
+/* ================= storage & utils ================= */
+const LS = {
+  roster:'game.roster',   // last game's player names
+  known:'game.known',     // all names ever used
+  rounds:'game.rounds',
+  used:'game.used',       // question ids already played
+  game:'game.state',      // in-progress game state
+};
+const LADDER = [1,3,6,9,18];
+let QUESTIONS = null;
+let game = null;
+
+const app = document.getElementById('app');
+function save(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+function loadLS(k,d){ try{ const v = localStorage.getItem(k); return v===null ? d : JSON.parse(v); }catch(e){ return d; } }
+function esc(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function ptsWord(n){ return n===1 ? 'bod' : (n>=2 && n<=4 ? 'body' : 'bodů'); }
+function roundsWord(n){ return n===1 ? 'kolo' : (n>=2 && n<=4 ? 'kola' : 'kol'); }
+
+/* ================= question loading ================= */
+async function loadQuestions(){
+  try{
+    const r = await fetch('kvizove_otazky.json', {cache:'no-store'});
+    if(r.ok) return await r.json();
+  }catch(e){}
+  return null;
+}
+
+/* ================= game state ================= */
+function buildDeck(n){
+  const all = Object.keys(QUESTIONS);
+  let used = new Set(loadLS(LS.used, []));
+  if(used.size >= all.length){ used = new Set(); save(LS.used, []); }
+  const deck = [];
+  let pool = shuffle(all.filter(id => !used.has(id)));
+  while(deck.length < n){
+    if(!pool.length){
+      pool = shuffle(all.filter(id => !deck.includes(id)));   // pool ran dry: recycle played questions
+      if(!pool.length) pool = shuffle(all.slice());           // more turns than questions: allow repeats
+    }
+    deck.push(pool.pop());
+  }
+  return deck;
+}
+
+function persist(){ save(LS.game, game); }
+
+function startGame(names, rounds){
+  game = {
+    players: names.map(n => ({name:n, score:0})),
+    rounds,
+    turn: 0,
+    deck: buildDeck(rounds),   // one question per round, shared by all players
+    phase: 'handoff',
+    cur: null,
+  };
+  save(LS.roster, names);
+  save(LS.rounds, rounds);
+  const known = new Set(loadLS(LS.known, []));
+  names.forEach(n => known.add(n));
+  save(LS.known, [...known]);
+  persist();
+  renderHandoff();
+}
+
+function curPlayer(){ return game.players[game.turn % game.players.length]; }
+function curRound(){ return Math.floor(game.turn / game.players.length) + 1; }
+function correctCount(){
+  const q = QUESTIONS[game.cur.qid];
+  return game.cur.picks.filter(i => q.moznosti[i].spravne).length;
+}
+
+function startTurn(){
+  game.cur = { qid: game.deck[curRound() - 1], order: shuffle([0,1,2,3,4,5,6,7,8,9]), picks: [], result: null };
+  game.phase = 'turn';
+  persist();
+  renderTurn();
+}
+
+function finishTurn(kind, gained, bustIdx){
+  game.cur.result = { kind, gained, bustIdx: bustIdx ?? null };
+  curPlayer().score += gained;
+  const used = new Set(loadLS(LS.used, []));
+  used.add(game.cur.qid);
+  save(LS.used, [...used]);
+  persist();
+}
+
+function nextTurn(){
+  game.turn++;
+  game.cur = null;
+  if(game.turn >= game.players.length * game.rounds){
+    game.phase = 'over';
+    persist();
+    renderScoreboard();
+  }else{
+    game.phase = 'handoff';
+    persist();
+    renderHandoff();
+  }
+}
+
+/* ================= screens ================= */
+function ladderHTML(){
+  return `<div class="ladder" id="ladder">` +
+    LADDER.map(v => `<div class="chip" data-v="${v}">${v}</div>`).join('') +
+    `</div>`;
+}
+function updateLadder(cc, dead){
+  const stake = cc > 0 ? LADDER[cc-1] : 0;
+  document.querySelectorAll('#ladder .chip').forEach(ch => {
+    const v = +ch.dataset.v;
+    ch.classList.toggle('earned', !dead && v <= stake);
+    ch.classList.toggle('dead', !!dead);
+    const isStake = !dead && v === stake;
+    if(isStake && !ch.classList.contains('stake')){
+      ch.classList.add('pop');
+      ch.addEventListener('animationend', () => ch.classList.remove('pop'), {once:true});
+    }
+    ch.classList.toggle('stake', isStake);
+  });
+}
+
+function renderSetup(){
+  const roster = loadLS(LS.roster, []).slice();
+  const rounds0 = loadLS(LS.rounds, 3);
+  const resumable = game && game.phase !== 'over';
+
+  app.innerHTML = `
+  <div class="screen">
+    <div class="setup-head">
+      <div class="wordmark">Mít Filipa</div>
+      <p class="tagline">5 z 10 odpovědí platí. Jak vysoko si troufneš?</p>
+      <div class="rule"><span class="pip"></span></div>
+    </div>
+    ${resumable ? `<button class="btn btn-gold" id="resume">Pokračovat v rozehrané hře</button>` : ''}
+    <div class="panel">
+      <h2>Hráči</h2>
+      <div class="add-row">
+        <input id="nameInput" type="text" placeholder="Jméno hráče" autocomplete="off" enterkeyhint="done" maxlength="20">
+        <button id="addBtn">Přidat</button>
+      </div>
+      <ul class="roster" id="roster"></ul>
+      <div class="chips" id="known"></div>
+    </div>
+    <div class="panel">
+      <h2>Počet kol</h2>
+      <div class="stepper">
+        <button id="rMinus" aria-label="Méně kol">−</button>
+        <div><span class="val" id="rVal">${rounds0}</span><span class="unit" id="rUnit">${roundsWord(rounds0)}</span></div>
+        <button id="rPlus" aria-label="Více kol">+</button>
+      </div>
+    </div>
+    <div class="setup-actions">
+      <button class="btn ${resumable ? 'btn-ghost' : 'btn-gold'}" id="start" disabled>Začít hru</button>
+    </div>
+  </div>`;
+
+  let rounds = rounds0;
+  const input = document.getElementById('nameInput');
+
+  function paint(){
+    const ul = document.getElementById('roster');
+    ul.innerHTML = roster.length
+      ? roster.map((n,i) => `<li><span>${esc(n)}</span><button class="rm" data-i="${i}" aria-label="Odebrat ${esc(n)}">×</button></li>`).join('')
+      : `<li class="empty">Zatím nikdo nehraje — přidej hráče.</li>`;
+    ul.querySelectorAll('.rm').forEach(b => b.onclick = () => { roster.splice(+b.dataset.i,1); paint(); });
+
+    const others = loadLS(LS.known, []).filter(n => !roster.includes(n));
+    const kn = document.getElementById('known');
+    kn.innerHTML = others.map(n => `<button data-n="${esc(n)}">+ ${esc(n)}</button>`).join('');
+    kn.querySelectorAll('button').forEach(b => b.onclick = () => { roster.push(b.dataset.n); paint(); });
+
+    document.getElementById('start').disabled = roster.length < 1;
+  }
+  function add(){
+    const n = input.value.trim();
+    if(!n) return;
+    if(!roster.includes(n)) roster.push(n);
+    input.value = '';
+    input.focus();
+    paint();
+  }
+  document.getElementById('addBtn').onclick = add;
+  input.addEventListener('keydown', e => { if(e.key === 'Enter'){ e.preventDefault(); add(); } });
+
+  function paintRounds(){
+    document.getElementById('rVal').textContent = rounds;
+    document.getElementById('rUnit').textContent = roundsWord(rounds);
+  }
+  document.getElementById('rMinus').onclick = () => { rounds = Math.max(1, rounds-1); paintRounds(); };
+  document.getElementById('rPlus').onclick  = () => { rounds = Math.min(10, rounds+1); paintRounds(); };
+
+  document.getElementById('start').onclick = () => startGame(roster, rounds);
+  if(resumable) document.getElementById('resume').onclick = () => {
+    if(game.phase === 'turn') renderTurn(); else renderHandoff();
+  };
+  paint();
+}
+
+function renderHandoff(){
+  const p = curPlayer();
+  const ranked = game.players.slice().sort((a,b) => b.score - a.score);
+  app.innerHTML = `
+  <div class="screen handoff">
+    <div class="eyebrow">Kolo ${curRound()} / ${game.rounds}</div>
+    <div class="hint">Předej telefon — na tahu je</div>
+    <div class="name">${esc(p.name)}</div>
+    ${game.turn > 0 ? `
+      <ul class="standings">
+        ${ranked.map(pl => `<li><b>${esc(pl.name)}</b><span>${pl.score} ${ptsWord(pl.score)}</span></li>`).join('')}
+      </ul>` : ''}
+    <button class="btn btn-gold" id="go">Ukázat otázku</button>
+    <div class="endgame" id="endgame">
+      <button class="link" id="endBtn">Ukončit hru</button>
+    </div>
+  </div>`;
+  document.getElementById('go').onclick = startTurn;
+  document.getElementById('endBtn').onclick = () => {
+    document.getElementById('endgame').innerHTML = `
+      <button class="yes" id="endYes">Opravdu ukončit?</button>
+      <button class="no" id="endNo">Zpět</button>`;
+    document.getElementById('endYes').onclick = endGame;
+    document.getElementById('endNo').onclick = renderHandoff;
+  };
+}
+
+function endGame(){
+  game = null;
+  save(LS.game, null);
+  renderSetup();
+}
+
+function renderTurn(){
+  const q = QUESTIONS[game.cur.qid];
+  const p = curPlayer();
+  app.innerHTML = `
+  <div class="screen turn">
+    <div class="turn-top">
+      <div class="turn-meta">
+        <span class="who">${esc(p.name)}</span>
+        <span class="eyebrow">Kolo ${curRound()} / ${game.rounds}</span>
+      </div>
+      ${ladderHTML()}
+    </div>
+    <p class="question">${esc(q.otazka)}</p>
+    <ul class="answers" id="answers">
+      ${game.cur.order.map(i => {
+        const m = q.moznosti[i];
+        return `<li><button class="card" data-i="${i}">
+          <span class="mark" aria-hidden="true"></span>
+          <span class="body">${esc(m.text)}</span>
+        </button></li>`;
+      }).join('')}
+    </ul>
+    <div class="turn-bottom" id="bottom">
+      <button class="btn btn-ghost" id="bank"></button>
+    </div>
+  </div>`;
+
+  document.querySelectorAll('#answers .card').forEach(b => b.onclick = () => pick(+b.dataset.i));
+  document.getElementById('bank').onclick = bank;
+
+  // rebuild picks (also handles resume after reload)
+  game.cur.picks.forEach(i => paintPick(i, false));
+  refreshBank();
+  updateLadder(correctCount(), game.cur.result && game.cur.result.kind === 'bust');
+  if(game.cur.result) showReveal(false);
+}
+
+function cardEl(i){ return document.querySelector(`#answers .card[data-i="${i}"]`); }
+
+function paintPick(i, animate){
+  const m = QUESTIONS[game.cur.qid].moznosti[i];
+  const el = cardEl(i);
+  if(!el) return;
+  el.classList.add(m.spravne ? 'good' : 'bad');
+  el.querySelector('.mark').textContent = m.spravne ? '✓' : '✗';
+  if(!animate) el.style.animation = 'none';
+}
+
+function refreshBank(){
+  const btn = document.getElementById('bank');
+  if(!btn) return;
+  const cc = correctCount();
+  if(cc === 0){
+    btn.textContent = 'Vzdát tah (0 bodů)';
+    btn.className = 'btn btn-ghost';
+  }else{
+    const v = LADDER[cc-1];
+    btn.textContent = `Vzít ${v} ${ptsWord(v)} a skončit`;
+    btn.className = 'btn btn-gold';
+  }
+}
+
+function pick(i){
+  const cur = game.cur;
+  if(cur.result || cur.picks.includes(i)) return;
+  const m = QUESTIONS[cur.qid].moznosti[i];
+  cur.picks.push(i);
+  paintPick(i, true);
+  if(m.spravne){
+    const cc = correctCount();
+    updateLadder(cc, false);
+    if(cc === 5){
+      finishTurn('perfect', 18);
+      showReveal(true);
+    }else{
+      refreshBank();
+      persist();
+    }
+  }else{
+    updateLadder(0, true);
+    finishTurn('bust', 0, i);
+    showReveal(true);
+  }
+}
+
+function bank(){
+  const cc = correctCount();
+  finishTurn('bank', cc > 0 ? LADDER[cc-1] : 0);
+  showReveal(true);
+}
+
+function showReveal(animate){
+  const q = QUESTIONS[game.cur.qid];
+  const res = game.cur.result;
+  const p = curPlayer();
+  document.querySelector('.turn').classList.add('revealed');
+
+  // dim the answers that were never picked — without giving away which were true
+  game.cur.order.forEach(i => {
+    if(game.cur.picks.includes(i)) return;
+    cardEl(i).classList.add('dud');
+  });
+
+  let cls, big, sub, why = '';
+  if(res.kind === 'bust'){
+    const m = q.moznosti[res.bustIdx];
+    cls = 'bust';
+    big = 'Vedle!';
+    sub = `${esc(p.name)} bere 0 bodů`;
+    why = `„${esc(m.text)}“ — ${esc(m.vysvetleni)}`;
+  }else if(res.kind === 'perfect'){
+    cls = 'win';
+    big = 'Čistá pětka!';
+    sub = `${esc(p.name)} bere plných 18 bodů`;
+  }else if(res.gained > 0){
+    cls = 'win';
+    big = `+${res.gained} ${ptsWord(res.gained)}`;
+    sub = `${esc(p.name)} bere body v suchu`;
+  }else{
+    cls = 'bust';
+    big = 'Tah vzdán';
+    sub = `${esc(p.name)} bere 0 bodů`;
+  }
+
+  const last = game.turn === game.players.length * game.rounds - 1;
+  const nextName = last ? null : game.players[(game.turn+1) % game.players.length].name;
+  document.getElementById('bottom').innerHTML = `
+    <div class="banner ${cls}" ${animate ? '' : 'style="animation:none"'}>
+      <div class="big">${big}</div>
+      <div class="sub">${sub}</div>
+      ${why ? `<div class="why">${why}</div>` : ''}
+    </div>
+    <button class="btn btn-gold" id="next">${last ? 'Zobrazit výsledky' : `Předat: ${esc(nextName)}`}</button>`;
+  document.getElementById('next').onclick = nextTurn;
+}
+
+function renderScoreboard(){
+  const ranked = game.players.slice().sort((a,b) => b.score - a.score);
+  const best = ranked[0].score;
+  const champs = ranked.filter(pl => pl.score === best);
+  const names = loadLS(LS.roster, []);
+  const rounds = game.rounds;
+
+  app.innerHTML = `
+  <div class="screen final">
+    <div class="eyebrow">Konec hry</div>
+    <div class="crown">👑</div>
+    <div class="champ">${champs.map(c => esc(c.name)).join(' & ')}</div>
+    <p class="tagline">${champs.length > 1 ? 'Remíza na špici!' : `vítězí s ${best} ${best === 1 ? 'bodem' : 'body'}`}</p>
+    <ol class="board">
+      ${ranked.map((pl,idx) => `
+        <li class="${pl.score === best ? 'top' : ''}" style="animation-delay:${idx*0.08}s">
+          <span class="pos">${idx+1}.</span>
+          <span class="nm">${esc(pl.name)}</span>
+          <span class="pts">${pl.score}</span>
+        </li>`).join('')}
+    </ol>
+    <div class="final-actions">
+      <button class="btn btn-gold" id="again">Hrát znovu</button>
+      <button class="btn btn-ghost" id="anew">Jiní hráči či kola</button>
+    </div>
+  </div>`;
+  document.getElementById('again').onclick = () => startGame(names, rounds);
+  document.getElementById('anew').onclick = endGame;
+}
+
+function renderLoading(){
+  app.innerHTML = `<div class="center">
+    <div class="wordmark">Mít Filipa</div>
+    <p>Míchám otázky…</p>
+  </div>`;
+}
+
+function renderError(){
+  app.innerHTML = `<div class="center">
+    <div class="wordmark">Mít Filipa</div>
+    <p>Otázky se nepodařilo načíst. Zkontroluj připojení k internetu a zkus to znovu.</p>
+    <button class="btn btn-gold" id="retry" style="max-width:220px">Zkusit znovu</button>
+  </div>`;
+  document.getElementById('retry').onclick = boot;
+}
+
+/* ================= boot ================= */
+async function boot(){
+  renderLoading();
+  QUESTIONS = await loadQuestions();
+  if(!QUESTIONS){ renderError(); return; }
+  game = loadLS(LS.game, null);
+  if(game && game.phase === 'over') game = null;
+  renderSetup();
+}
+boot();
+</script>
+</body>
+</html>
