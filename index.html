@@ -184,8 +184,8 @@
     font-weight:700; color:var(--gold); font-size:1.05rem;
   }
   .question{
-    font-family:var(--font-serif); font-size:1.05rem; font-size:clamp(.95rem, 2.2dvh, 1.15rem);
-    line-height:1.35; padding:.35rem 1rem .5rem;
+    font-family:var(--font-serif); font-size:1.2rem; font-size:clamp(1.1rem, 2.6dvh, 1.35rem);
+    line-height:1.4; padding:1.75rem 1.6rem 2rem; text-align:center; text-wrap:pretty;
   }
   .answers{
     list-style:none; flex:1; min-height:0;
@@ -194,34 +194,37 @@
   }
   .answers li{ min-height:0; display:flex; }
   .card{
-    width:100%; text-align:left;
+    width:100%; text-align:center; position:relative;
     background:var(--cream); color:var(--ink);
-    border-radius:10px; padding:.25rem .55rem;
+    border-radius:10px; padding:.25rem 1.85rem;
     font-size:.88rem; font-size:clamp(.78rem, 1.9dvh, .95rem);
     line-height:1.2; font-weight:500;
     box-shadow:0 2px 5px rgba(0,0,0,.3);
-    display:flex; align-items:center; gap:.45rem; overflow:hidden;
+    display:flex; align-items:center; justify-content:center; overflow:hidden;
     transition:background .2s ease, color .2s ease, opacity .2s ease;
   }
   .card .mark{
-    flex:0 0 20px; width:20px; height:20px; border-radius:50%;
-    border:2px solid rgba(28,43,34,.25);
+    position:absolute; left:.55rem; top:50%; transform:translateY(-50%) scale(.4);
+    width:22px; height:22px; border-radius:50%;
     display:flex; align-items:center; justify-content:center;
-    font-weight:700; font-size:.7rem;
+    font-weight:800; font-size:.8rem; line-height:1;
+    opacity:0; transition:opacity .2s ease, transform .2s ease;
   }
   .card .body{
-    flex:1; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;
+    flex:1; max-width:100%; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;
   }
+  .card.good, .card.bad{ box-shadow:inset 0 0 0 3px rgba(0,0,0,.28), 0 2px 5px rgba(0,0,0,.3); font-weight:700; }
+  .card.good .mark, .card.bad .mark{ opacity:1; transform:translateY(-50%) scale(1); }
   .card.good{
     background:linear-gradient(180deg,#f6c453,var(--gold)); color:var(--ink);
     animation:goodPop .35s ease;
   }
-  .card.good .mark{ background:var(--ink); color:var(--gold); border-color:var(--ink); }
+  .card.good .mark{ background:var(--ink); color:var(--gold); }
   .card.bad{
     background:var(--red); color:var(--cream);
     animation:shake .45s ease;
   }
-  .card.bad .mark{ background:var(--cream); color:var(--red); border-color:var(--cream); }
+  .card.bad .mark{ background:var(--cream); color:var(--red); }
   @keyframes goodPop{ 35%{ transform:scale(1.03);} }
   @keyframes shake{
     20%{ transform:translateX(-7px);} 40%{ transform:translateX(6px);}
@@ -230,9 +233,8 @@
   /* reveal state: unpicked answers dim uniformly — never expose which were true */
   .revealed .card{ pointer-events:none; }
   .revealed .card.dud{ background:rgba(245,237,218,.07); color:var(--cream-dim); box-shadow:none; }
-  .revealed .card.dud .mark{ border-color:rgba(245,237,218,.25); color:var(--cream-dim); }
 
-  .turn-bottom{ padding:.5rem 1rem calc(.55rem + env(safe-area-inset-bottom)); }
+  .turn-bottom{ padding:.5rem 1rem calc(1.25rem + env(safe-area-inset-bottom)); }
 
   /* ---------- result banner ---------- */
   .banner{
@@ -240,7 +242,11 @@
     animation:rise .35s ease both;
     margin-bottom:.45rem; text-align:center;
   }
-  .banner.win{ background:linear-gradient(180deg,#f6c453,var(--gold)); color:var(--ink); }
+  .banner.win{
+    background:rgba(240,196,83,.1); color:var(--gold);
+    border:1.5px solid rgba(240,196,83,.55);
+  }
+  .banner.win .sub{ color:var(--cream); }
   .banner.bust{ background:var(--red); color:var(--cream); }
   .banner .big{
     font-family:var(--font-display); text-transform:uppercase; letter-spacing:.12em;
@@ -675,7 +681,7 @@ function showReveal(animate){
       <div class="sub">${sub}</div>
       ${why ? `<div class="why">${why}</div>` : ''}
     </div>
-    <button class="btn btn-gold" id="next">${last ? 'Zobrazit výsledky' : `Předat: ${esc(nextName)}`}</button>`;
+    <button class="btn btn-gold" id="next">${last ? 'Zobrazit výsledky' : `Další: ${esc(nextName)}`}</button>`;
   document.getElementById('next').onclick = nextTurn;
 }
 

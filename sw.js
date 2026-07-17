@@ -1,7 +1,7 @@
 'use strict';
 
 // Bump the version whenever any precached file changes — activation drops the old cache.
-const CACHE = 'mit-filipa-v1';
+const CACHE = 'mit-filipa-v2';
 const PRECACHE = [
   './',
   'index.html',
